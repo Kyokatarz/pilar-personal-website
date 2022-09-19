@@ -2,8 +2,18 @@ import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 
+import Navbar from './components/Navbar'
+import Landing from './pages/Landing'
+
 function App() {
-  return <div className='App'></div>
+  return (
+    <div className='App'>
+      <Navbar />
+      <main className='pt-14'>
+        <Landing />
+      </main>
+    </div>
+  )
 }
 
 export default App
