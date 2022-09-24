@@ -1,10 +1,13 @@
+import clsx from 'clsx'
 import React from 'react'
 import TheUgly from '../Landing/assets/la-mujer-oro.jpeg'
 
 const Landing = () => {
+  const paragraphClasses = 'max-w-xl text-justify'
+  const paragraphHeaderClasses = 'underline font-bold'
   return (
     <section className='h-auto w-full pt-10 pb-10 px-2 flex items-center justify-center'>
-      <div className='max-w-6xl w-full flex flex-col items-center  xl:justify-evenly'>
+      <div className='max-w-6xl w-full flex flex-col items-center xl:justify-evenly'>
         <div className='flex items-center justify-center mb-6'>
           <img src={TheUgly} alt='' className='max-w-sm w-auto h-full' />
         </div>
@@ -15,8 +18,8 @@ const Landing = () => {
               (Composer / sound artist)
             </p>
           </header>
-          <p className='max-w-xl text-justify'>
-            <span className='underline bold font-bold'>Statement</span>
+          <p className={paragraphClasses}>
+            <span className={paragraphHeaderClasses}>Statement</span>
             <br />
             I would like to question our approach to artistic expression up to
             this day, our capacity of perceiving the world and the self, and our
@@ -26,11 +29,13 @@ const Landing = () => {
             administrative deception.
             <br />
             <br />
-            Art is a human condition, a condition for being humane, a condition
-            for human dignity. I feel the eagerness to exist through artistic
-            creation and feeling. I want to express all I can, life, existence,
-            the world and its beautiful decrepitude, oozing art every second,
-            and whatever escapes from its unconsciousness.
+            <span className='italic'>
+              Art is a human condition, a condition for being humane, a
+              condition for human dignity. I feel the eagerness to exist through
+              artistic creation and feeling. I want to express all I can, life,
+              existence, the world and its beautiful decrepitude, oozing art
+              every second, and whatever escapes from its unconsciousness.
+            </span>
             <br />
             <br />
             Besides music and sound art, I am interested in visual arts,
@@ -39,27 +44,36 @@ const Landing = () => {
             on artistic expression.
             <br />
             <br />
-            What is happening to art? What is happening to the world? What is
-            happening to us? Is the art as a condition for human dignity falling
-            into disuse?
+            <span className='italic'>
+              What is happening to art? What is happening to the world? What is
+              happening to us? Is the art as a condition for human dignity
+              falling into disuse?
+            </span>
             <br />
             <br />
           </p>
-          <p className='max-w-xl text-justify'>
-            <span className='underline font-bold'>Acknowledgements</span>
+          <p className={paragraphClasses}>
+            <span className={paragraphHeaderClasses}>Acknowledgements</span>
             <br />
-            Thanks to Jean-Paul Sartre for Nausea, John Kennedy Toole for A
-            Confederacy of Dunces, and John Steinbeck for The Grapes of Wrath
+            Thanks to Jean-Paul Sartre for{' '}
+            <span className='italic'>Nausea</span>, John Kennedy Toole for{' '}
+            <span className='italic'>A Confederacy of Dunces</span>, and John
+            Steinbeck for
+            <span className='italic'>The Grapes of Wrath</span>
             <br />
             <br />
             Thanks to Galina Ustvolskaya, the truest composer, and to Alexandre
             Tansman for his Sonatina for Bassoon and Piano
             <br />
             <br />
-            Thanks to Paulo Freire and his Pedagogy of the Opressed
+            Thanks to Paulo Freire and his{' '}
+            <span className='italic'>Pedagogy of the Opressed</span>
             <br />
             <br />
-            Thanks to Mayakovsky …the boat of love crashed into everyday life…
+            Thanks to Mayakovsky{' '}
+            <span className='italic'>
+              …the boat of love crashed into everyday life…
+            </span>{' '}
             (1930, Last letter)
             <br />
             <br />
@@ -67,7 +81,7 @@ const Landing = () => {
             applied to those express the freedom of their consciousness
           </p>
           <br />
-          <p className='max-w-xl text-justify'>
+          <p className={clsx(paragraphClasses, 'italic')}>
             This website has been kindly designed and developed by Giang Tran{' '}
             <a
               href='https://fi.linkedin.com/in/giang-tran97'
