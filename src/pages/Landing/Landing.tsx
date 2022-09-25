@@ -3,15 +3,15 @@ import React from 'react'
 import TheUgly from '../Landing/assets/la-mujer-oro.jpeg'
 
 const Landing = () => {
-  const paragraphClasses = 'max-w-xl text-justify'
+  const paragraphClasses = 'text-justify'
   const paragraphHeaderClasses = 'underline font-bold'
   return (
-    <section className='h-auto w-full pt-10 pb-10 px-2 flex items-center justify-center'>
+    <section className='h-auto w-full pt-10 pb-10 px-4 flex items-center justify-center'>
       <div className='max-w-6xl w-full flex flex-col items-center xl:justify-evenly'>
-        <div className='flex items-center justify-center mb-6'>
-          <img src={TheUgly} alt='' className='max-w-sm w-auto h-full' />
+        <div className='flex items-center justify-center mb-6 max-w-sm'>
+          <img src={TheUgly} alt='' className='max-w-full w-auto' />
         </div>
-        <article>
+        <article className='max-w-xl'>
           <header className='text-4xl text-black mb-2'>
             PILAR MIRALLES
             <p className='text-2xl italic text-gray-600'>
@@ -67,7 +67,7 @@ const Landing = () => {
             <br />
             <br />
             Thanks to Paulo Freire and his{' '}
-            <span className='italic'>Pedagogy of the Opressed</span>
+            <span className='italic'>Pedagogy of the Oppressed</span>
             <br />
             <br />
             Thanks to Mayakovsky{' '}
@@ -81,16 +81,17 @@ const Landing = () => {
             applied to those express the freedom of their consciousness
           </p>
           <br />
-          <p className={clsx(paragraphClasses, 'italic')}>
-            This website has been kindly designed and developed by Giang Tran{' '}
+          <p className={'italic text-left'}>
+            This website has been kindly designed and developed by{' '}
             <a
               href='https://fi.linkedin.com/in/giang-tran97'
               target='_blank'
               rel='noreferrer'
               className='text-blue-500'
             >
-              https://fi.linkedin.com/in/giang-tran97 😎{' '}
+              Giang Tran{' '}
             </a>
+            <span className='not-italic'>😎</span>
           </p>
         </article>
       </div>
