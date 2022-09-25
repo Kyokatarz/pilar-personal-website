@@ -1,4 +1,3 @@
-import clsx from 'clsx'
 import React from 'react'
 import TheUgly from '../Landing/assets/la-mujer-oro.jpeg'
 
