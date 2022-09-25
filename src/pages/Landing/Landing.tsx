@@ -41,7 +41,7 @@ const Landing = () => {
             Besides music and sound art, I am interested in visual arts,
             contemporary dance and literature. I am currently expanding my
             knowledge in philosophy, sociology, pedagogy and history, focusing
-            on posing and answering questions such as
+            on posing and answering questions such as:
             <br />
             <br />
             <span className='italic'>
@@ -59,27 +59,27 @@ const Landing = () => {
             <span className='italic'>Nausea</span>, John Kennedy Toole for{' '}
             <span className='italic'>A Confederacy of Dunces</span>, and John
             Steinbeck for
-            <span className='italic'>The Grapes of Wrath</span>
+            <span className='italic'>The Grapes of Wrath</span>.
             <br />
             <br />
             Thanks to Galina Ustvolskaya, the truest composer, and to Alexandre
-            Tansman for his Sonatina for Bassoon and Piano
+            Tansman for his Sonatina for Bassoon and Piano.
             <br />
             <br />
             Thanks to Paulo Freire and his{' '}
-            <span className='italic'>Pedagogy of the Oppressed</span>
+            <span className='italic'>Pedagogy of the Oppressed</span>.
             <br />
             <br />
             Thanks to Mayakovsky{' '}
             <span className='italic'>
               …the boat of love crashed into everyday life…
             </span>{' '}
-            (last letter, 1930)
+            (last letter, 1930).
             <br />
             <br />
             Thanks to all artists who feel and felt the oppression that is
             usually applied to those who express the freedom of their
-            consciousness
+            consciousness.
           </p>
           <br />
           <p className={'italic text-left'}>
@@ -92,7 +92,7 @@ const Landing = () => {
             >
               Giang Tran{' '}
             </a>
-            <span className='not-italic'>😎</span>
+            <span className='not-italic'>😎</span>.
           </p>
         </article>
       </div>
