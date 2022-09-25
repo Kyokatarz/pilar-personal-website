@@ -22,11 +22,11 @@ const Landing = () => {
             <span className={paragraphHeaderClasses}>Statement</span>
             <br />
             I would like to question our approach to artistic expression up to
-            this day, our capacity of perceiving the world and the self, and our
-            subsequent consciousness and freedom. I dream about and work for a
-            new way of creation, interpretation and reception of art within an
-            environment free of economic constrains, academic technocracy and
-            administrative deception.
+            this day, our capacity of perceiving and interpreting the world and
+            the self, and our subsequent consciousness and freedom. I dream
+            about and work for a new way of creation, interpretation and
+            reception of art within an environment free of economic constraints,
+            academic technocracy and administrative deception.
             <br />
             <br />
             <span className='italic'>
@@ -41,13 +41,13 @@ const Landing = () => {
             Besides music and sound art, I am interested in visual arts,
             contemporary dance and literature. I am currently expanding my
             knowledge in philosophy, sociology, pedagogy and history, focusing
-            on artistic expression.
+            on posing and answering questions such as
             <br />
             <br />
             <span className='italic'>
               What is happening to art? What is happening to the world? What is
-              happening to us? Is the art as a condition for human dignity
-              falling into disuse?
+              happening to us? Is art as a condition for human dignity falling
+              into disuse?
             </span>
             <br />
             <br />
@@ -74,11 +74,12 @@ const Landing = () => {
             <span className='italic'>
               …the boat of love crashed into everyday life…
             </span>{' '}
-            (1930, Last letter)
+            (last letter, 1930)
             <br />
             <br />
-            Thanks to all artists who felt the oppression that is usually
-            applied to those express the freedom of their consciousness
+            Thanks to all artists who feel and felt the oppression that is
+            usually applied to those who express the freedom of their
+            consciousness
           </p>
           <br />
           <p className={'italic text-left'}>
