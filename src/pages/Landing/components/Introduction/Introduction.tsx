@@ -1,23 +1,24 @@
 import React from 'react'
+import Article from '../../../../components/Article'
+import Paragraph from '../../../../components/Paragraph'
 import Section from '../../../../components/Section'
 import TheUgly from '../../assets/la-mujer-oro.jpeg'
 
 const Introduction = () => {
-  const paragraphClasses = 'text-justify'
   const paragraphHeaderClasses = 'underline font-bold'
   return (
     <Section>
       <div className='flex items-center justify-center mb-6 max-w-sm'>
         <img src={TheUgly} alt='' className='max-w-full w-auto' />
       </div>
-      <article className='max-w-xl'>
+      <Article>
         <header className='text-4xl text-black mb-2'>
           PILAR MIRALLES
           <p className='text-2xl italic text-gray-600'>
             (Composer / sound artist)
           </p>
         </header>
-        <p className={paragraphClasses}>
+        <Paragraph>
           <span className={paragraphHeaderClasses}>Statement</span>
           <br />
           I would like to question our approach to artistic expression up to
@@ -50,8 +51,8 @@ const Introduction = () => {
           </span>
           <br />
           <br />
-        </p>
-        <p className={paragraphClasses}>
+        </Paragraph>
+        <Paragraph>
           <span className={paragraphHeaderClasses}>Acknowledgements</span>
           <br />
           Thanks to Jean-Paul Sartre for <span className='italic'>Nausea</span>,
@@ -78,7 +79,7 @@ const Introduction = () => {
           <br />
           Thanks to all artists who feel and felt the oppression that is usually
           applied to those who express the freedom of their consciousness.
-        </p>
+        </Paragraph>
         <br />
         <p className={'italic text-left'}>
           This website has been kindly designed and developed by{' '}
@@ -92,7 +93,7 @@ const Introduction = () => {
           </a>
           <span className='not-italic'>😎</span>.
         </p>
-      </article>
+      </Article>
     </Section>
   )
 }
