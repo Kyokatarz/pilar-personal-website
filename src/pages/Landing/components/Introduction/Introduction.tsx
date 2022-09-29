@@ -8,8 +8,11 @@ const Introduction = () => {
   const paragraphHeaderClasses = 'underline font-bold'
   return (
     <Section>
-      <div className='flex items-center justify-center mb-6 max-w-sm'>
+      <div className='flex items-center justify-center mb-6 max-w-sm flex-col'>
         <img src={TheUgly} alt='' className='max-w-full w-auto' />
+        <figcaption className='w-full text-right text-xs italic'>
+          © Jonas Šopa
+        </figcaption>
       </div>
       <Article>
         <header className='text-4xl text-black mb-2'>
