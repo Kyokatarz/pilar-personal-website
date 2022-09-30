@@ -6,7 +6,7 @@ type Props = {
 
 const SeeMore = ({ children }: Props) => {
   return (
-    <p className='text-black font-bold italic underline text-large text-right mt-2'>
+    <p className='text-black font-semibold italic underline text-large text-right mt-2'>
       {children}
     </p>
   )
