@@ -2,13 +2,21 @@ import React from 'react'
 
 type Props = {
   children: React.ReactNode
+  to?: string
+  target?: '_blank'
 }
 
-const SeeMore = ({ children }: Props) => {
+const SeeMore = ({ children, to, target }: Props) => {
   return (
-    <p className='text-black font-semibold italic underline text-large text-right mt-2'>
-      {children}
-    </p>
+    <div className='w-full flex justify-end'>
+      <a
+        href={to || '#'}
+        className='text-black font-semibold italic underline text-large text-right mt-2 w-full'
+        target={target || '_self'}
+      >
+        {children}
+      </a>
+    </div>
   )
 }
 

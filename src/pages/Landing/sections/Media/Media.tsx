@@ -32,6 +32,8 @@ const Media = () => {
           </figcaption>
         </div>
 
+        <SeeMore> See more performed pieces {'>>'}</SeeMore>
+
         <div className='w-full'>
           <iframe
             className='mt-12'
@@ -49,7 +51,10 @@ const Media = () => {
             - Algorithmic practice (2022)
           </figcaption>
         </div>
-        <SeeMore> See more media {'>>'}</SeeMore>
+        <SeeMore to='https://soundcloud.com/pilar-miralles-huh' target='_blank'>
+          {' '}
+          See more acousmatic pieces {'>>'}
+        </SeeMore>
       </Article>
     </Section>
   )
