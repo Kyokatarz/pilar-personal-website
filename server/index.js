@@ -17,6 +17,7 @@ app.get('/', (req, res) => {
 
 app.post('/sendMail', (req, res) => {
   // sendEmail()
+  console.log(req.body)
   res.status(200).send('Email sent successfully.')
 })
 

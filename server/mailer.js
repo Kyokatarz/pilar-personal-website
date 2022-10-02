@@ -1,6 +1,6 @@
 const nodeMailer = require('nodemailer')
 
-async function sendEmail() {
+async function sendEmail({firstName, lastName, email, message}) {
   // send email
    // create reusable transporter object using the default SMTP transport
    const transporter = nodeMailer.createTransport({
@@ -13,11 +13,14 @@ async function sendEmail() {
 
   // send mail with defined transport object
   await transporter.sendMail({
-    from: '"Test 👻" pilar.miralles.bot@outlook.com', // sender address
-    to: "pilota97@gmail.com", // list of receivers
-    subject: "Que puta tu me miras, bastarda?", // Subject line
-    text: "Yo soy va a puto matarte 🔪! ", // plain text body
-    html: "<a href=`https://www.youtube.com/watch?v=dQw4w9WgXcQ`>Ay yo check this out </a>", // html body
+    from: '"It\'s me but a bot 🤖" pilar.miralles.bot@outlook.com', // sender address
+    to: process.env.DEFAULT_RECEIVER, // list of receivers
+    subject: "🔔 [You've got mail] Someone sent data through website form~", // Subject line
+    html: `<div> 
+    Firstname: ${firstName} <br/> 
+    Lastname: ${lastName} <br/> 
+    Email: ${email} <br/> 
+    Message: ${message} </div>`, // html body
   }, (error, info) => {
     if (error) {
       console.log(error)
