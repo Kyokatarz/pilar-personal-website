@@ -11,20 +11,38 @@ const Contact = () => {
   const [name, setName] = React.useState('')
   const [email, setEmail] = React.useState('')
   const [message, setMessage] = React.useState('')
+  const [result, setResult] = React.useState('')
+  const [error, setError] = React.useState('')
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
-    console.log('submitting form')
-
     try {
+      setResult('Sending...')
+
+      const niceMessageTimer = setTimeout(() => {
+        setResult('Writing your name in my favorite list, taking awhile :D')
+      }, 5000)
+
       const res = await axios.post('http://localhost:8080/api/v1/sendMail', {
         name,
         email,
         message,
       })
+
+      if (res.status === 200) {
+        clearTimeout(niceMessageTimer)
+        setResult('Message sent!')
+        setEmail('')
+        setName('')
+        setMessage('')
+        setTimeout(() => {
+          setResult('')
+        }, 3000)
+      }
     } catch (error) {
       console.error(error)
+      setError('Something went wrong :O Message failed to send')
     }
   }
 
@@ -103,6 +121,8 @@ const Contact = () => {
           >
             Send
           </button>
+          <p className='text-green-500 italic'>{result}</p>
+          <p className='text-red-500 italic'>{error}</p>
         </form>
       </Article>
     </Section>
