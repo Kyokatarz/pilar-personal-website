@@ -36,12 +36,14 @@ const Contact = () => {
         setEmail('')
         setName('')
         setMessage('')
+        setError('')
         setTimeout(() => {
           setResult('')
         }, 3000)
       }
     } catch (error) {
       console.error(error)
+      setResult('')
       setError('Something went wrong :O Message failed to send')
     }
   }
