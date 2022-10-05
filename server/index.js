@@ -9,9 +9,14 @@ dotEnv.config();
 
 const app = express();
 
+var corsOptions = {
+  origin: process.env.NODE_ENV === 'production' ? process.env.PROD_URL : process.env.DEV_URL,
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
-app.use(cors())
+app.use(cors(corsOptions))
 
 app.get('/v1', (req, res) => {
   res.send('Successful response.')
