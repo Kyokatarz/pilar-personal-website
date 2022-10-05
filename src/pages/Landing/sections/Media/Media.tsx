@@ -43,12 +43,12 @@ const Media = () => {
             scrolling='no'
             frameBorder='no'
             allow='autoplay'
-            src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1347366076&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+            src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1347363049&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
           />
           <figcaption className='w-full text-center text-sm text-gray-500 mt-1'>
-            On Charlie Chaplin's speech at The Great Dictator (1940).
-            Computer-generated sound through Super-Collider programming language
-            - Algorithmic practice (2022)
+            Computer-generated sound through SuperCollider programming language
+            - Composed at the Nordplus intensive course IMMEDIA in Vilnius
+            (Lithuania, 2021)
           </figcaption>
         </div>
         <SeeMore to='https://soundcloud.com/pilar-miralles-huh' target='_blank'>
