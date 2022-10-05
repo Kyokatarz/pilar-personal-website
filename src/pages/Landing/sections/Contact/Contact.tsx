@@ -22,7 +22,11 @@ const Contact = () => {
           </p>
         </div>
         <div className='flex flex-row mb-8'>
-          <a href='#'>
+          <a
+            href='https://www.facebook.com/pilota.miralles'
+            target='_blank'
+            rel='noreferrer'
+          >
             <IconContext.Provider
               value={{
                 size: '2.5em',
@@ -33,7 +37,11 @@ const Contact = () => {
               <FaFacebook />
             </IconContext.Provider>
           </a>
-          <a href='#'>
+          <a
+            href='https://soundcloud.com/pilar-miralles-huh'
+            target='_blank'
+            rel='noreferrer'
+          >
             <IconContext.Provider
               value={{
                 size: '2.5em',
