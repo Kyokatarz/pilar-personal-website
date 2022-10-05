@@ -9,8 +9,10 @@ dotEnv.config();
 
 const app = express();
 
+const origin = process.env.NODE_ENV === 'production' ? process.env.PROD_URL : process.env.DEV_URL
+
 var corsOptions = {
-  origin: process.env.NODE_ENV === 'production' ? process.env.PROD_URL : process.env.DEV_URL,
+  origin,
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
