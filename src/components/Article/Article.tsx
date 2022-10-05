@@ -5,7 +5,7 @@ type Props = {
 }
 
 const Section = ({ children }: Props) => {
-  return <article className='max-w-xl'>{children}</article>
+  return <article className='max-w-xl w-full'>{children}</article>
 }
 
 export default Section
