@@ -6,6 +6,7 @@ import axios from 'axios'
 
 import Article from '../../../../components/Article'
 import Section from '../../../../components/Section'
+import { serverEndpont } from '../../../../constants/app'
 
 const Contact = () => {
   const [name, setName] = React.useState('')
@@ -20,18 +21,13 @@ const Contact = () => {
     try {
       setResult('Sending...')
 
-      const niceMessageTimer = setTimeout(() => {
-        setResult('Writing your name in my favorite list, taking awhile :D')
-      }, 5000)
-
-      const res = await axios.post('http://localhost:8080/api/v1/sendMail', {
+      const res = await axios.post(`${serverEndpont}/api/v1/sendMail`, {
         name,
         email,
         message,
       })
 
       if (res.status === 200) {
-        clearTimeout(niceMessageTimer)
         setResult('Message sent!')
         setEmail('')
         setName('')
