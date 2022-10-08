@@ -30,4 +30,4 @@ app.post('/api/v1/sendMail', (req, res) => {
   res.status(200).send('Email sent successfully.')
 })
 
-app.listen(process.env.PORT, () => console.log(`Example app is listening on port ${process.env.PORT}.`))
+app.listen(process.env.PORT, () => console.log(`${process.env.NODE_ENV} build is listening on port ${process.env.PORT}.`))
