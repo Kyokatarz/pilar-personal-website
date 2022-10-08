@@ -32,7 +32,7 @@ const Media = () => {
           </figcaption>
         </div>
 
-        <SeeMore> See more performed pieces {'>>'}</SeeMore>
+        <SeeMore to='/media'> See more media {'>>'}</SeeMore>
 
         <div className='w-full'>
           <iframe
@@ -51,9 +51,12 @@ const Media = () => {
             (Lithuania, 2021)
           </figcaption>
         </div>
-        <SeeMore to='https://soundcloud.com/pilar-miralles-huh' target='_blank'>
-          {' '}
-          See more acousmatic pieces {'>>'}
+        <SeeMore
+          to='https://soundcloud.com/pilar-miralles-huh'
+          external
+          target='_blank'
+        >
+          See more in SoundCloud {'>>'}
         </SeeMore>
       </Article>
     </Section>
