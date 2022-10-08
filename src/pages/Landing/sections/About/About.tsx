@@ -15,7 +15,7 @@ const About = () => {
           I speak Spanish, English and a bit of French. You can find my artist
           statement in the home page.
         </Paragraph>
-        <SeeMore>See more about me {'>>'}</SeeMore>
+        <SeeMore to='#'>See more about me {'>>'}</SeeMore>
       </Article>
     </Section>
   )

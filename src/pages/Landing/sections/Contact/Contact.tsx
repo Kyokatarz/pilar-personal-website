@@ -55,7 +55,7 @@ const Contact = () => {
           </p>
           <p>
             <span className='mr-8 font-semibold'>Phone: </span>
-            <span>+358 123 458 98</span>
+            <span>+358 414 955 736</span>
           </p>
         </div>
         <div className='flex flex-row mb-8'>
