@@ -2,6 +2,7 @@ import React from 'react'
 import Article from '../../../../components/Article'
 import Paragraph from '../../../../components/Paragraph'
 import Section from '../../../../components/Section'
+
 import TheUgly from '../../assets/la-mujer-oro.jpeg'
 
 const Introduction = () => {
