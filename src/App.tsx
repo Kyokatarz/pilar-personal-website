@@ -1,10 +1,14 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
+
 import Landing from './pages/Landing'
-import './App.css'
 import Media from './pages/Media'
+import FullAbout from './pages/FullAbout'
+
 import ScrollToTop from './components/ScrollToTop'
+import Navbar from './components/Navbar'
+
+import './App.css'
 
 function App() {
   return (
@@ -15,6 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Landing />} />
           <Route path='/media' element={<Media />} />
+          <Route path='about-me' element={<FullAbout />} />
         </Routes>
       </main>
     </div>

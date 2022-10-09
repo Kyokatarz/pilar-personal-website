@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
 import Section from '../../components/Section'
 import YoutubeCaptionPair from '../../components/YoutubeCaptionPair'
 
