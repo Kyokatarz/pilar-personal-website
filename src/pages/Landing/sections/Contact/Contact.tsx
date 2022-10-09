@@ -45,7 +45,7 @@ const Contact = () => {
   }
 
   return (
-    <Section>
+    <Section id='contact'>
       <Article>
         <h1 className='text-4xl font-bold text-left mb-8 w-full'>Contact</h1>
         <div className='flex flex-col items-start mb-8'>

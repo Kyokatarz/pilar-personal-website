@@ -1,6 +1,7 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
+import ListItem from '../../components/ListItem/ListItem'
 import Section from '../../components/Section'
+import YoutubeCaptionPair from '../../components/YoutubeCaptionPair'
 
 const youtubeMedia = [
   {
@@ -52,10 +53,7 @@ const Media = () => {
       <div className='w-full flex flex-col md:flex-row md:flex-wrap'>
         {youtubeMedia.map((item, index) => (
           <div className='w-full mb-8 mx-2 md:w-[calc(50%-theme(space.4))] xl:w-[calc(33%-theme(space.12))]'>
-            <ReactPlayer url={item.url} width='100%' />
-            <figcaption className='w-full text-center text-sm text-gray-500 mt-1'>
-              {item.title}
-            </figcaption>
+            <YoutubeCaptionPair url={item.url} caption={item.title} />
           </div>
         ))}
       </div>
@@ -94,27 +92,27 @@ const Media = () => {
       <div className='w-full text-left mt-8 border-black border-4 p-4 '>
         <p className='underline'>Selection of pieces not performed yet</p>
         <ul className='mt-8'>
-          <li className='list-disc ml-4'>
+          <ListItem>
             Brief Requiem for the Poets and Prayers, for chamber orchestra
             (2022) – To be premiered by Avanti! Chamber Orchestra in 2023{' '}
-          </li>
-          <li className='list-disc ml-4'>
+          </ListItem>
+          <ListItem>
             Anti-Philosophy of the Subject, for oboe, violin, viola and cello
             (2022) – To be premiered by Cuarteto Emispherio in 2023{' '}
-          </li>
-          <li className='list-disc ml-4'>
+          </ListItem>
+          <ListItem>
             Ota yksi, maksa kaksi, for two percussionists on prepared vibraphone
             and two old radio-CD players (2022){' '}
-          </li>
-          <li className='list-disc ml-4'>
+          </ListItem>
+          <ListItem>
             Requiem mass, Los hombres se mueren aunque no los maten (Men Die
             Although They Are Not Killed), for orchestra, SATB choir and soloist
             piano (2020-22)
-          </li>
-          <li className='list-disc ml-4'>
+          </ListItem>
+          <ListItem>
             Two Fughettas, for violin and piano (2021) Four Songs for the End of
             a Life, for SATB choir and piano (2020)
-          </li>
+          </ListItem>
         </ul>
       </div>
     </Section>
