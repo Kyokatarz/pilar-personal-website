@@ -1,4 +1,5 @@
 import React from 'react'
+import ListItem from '../../components/ListItem'
 
 import Paragraph from '../../components/Paragraph'
 import Section from '../../components/Section'
@@ -28,18 +29,18 @@ const FullAbout = () => {
           <br />
           <SubSectionHeader level={2}>Education</SubSectionHeader>
           <Paragraph>
-            <li className='list-disc ml-4 my-2'>
+            <ListItem>
               Master of Music in Composition at the Sibelius Academy, University
               of the Arts Helsinki (Finland, 2022)
-            </li>
-            <li className='list-disc ml-4 my-2'>
+            </ListItem>
+            <ListItem>
               Master’s Degree in Electroacoustic Composition, Higher Center of
               Musical Education “Katarina Gurska” of Madrid (Spain, 2020)
-            </li>
-            <li className='list-disc ml-4 my-2'>
+            </ListItem>
+            <ListItem>
               Bachelor’s Degree in Composition at the Royal Higher Conservatory
               of Music “Victoria Eugenia” of Granada (Spain, 2019)
-            </li>
+            </ListItem>
           </Paragraph>
           <br />
           <SubSectionHeader level={2}>
@@ -47,38 +48,38 @@ const FullAbout = () => {
           </SubSectionHeader>
           <Paragraph>
             <ul>
-              <li className='list-disc ml-4 my-2'>
+              <ListItem>
                 Merit grant awarded by the Martis Wegelius Foundation (Finland
                 2022).
-              </li>
+              </ListItem>
 
-              <li className='list-disc ml-4 my-2'>
+              <ListItem>
                 Participation as a composer at the Nordplus intensive course
                 IMMEDIA in Vilnius (Lithuania, 2021).
-              </li>
-              <li className='list-disc ml-4 my-2'>
+              </ListItem>
+              <ListItem>
                 Participation as an artist in Tampere Biennale 2022, setting the
                 public sound and visual installation “Where Are the Workers
                 Now?” during the festival.
-              </li>
-              <li className='list-disc ml-4 my-2'>
+              </ListItem>
+              <ListItem>
                 Collaboration with composer and researcher José López-Montes
                 into GenoMus project (computer-aided creativity tool) composing
                 a computer-generated binaural piece in podcast format, published
                 as part of FACBA, Festival of Contemporary Arts of Granada’s
                 University (Spain, 2021).
-              </li>
-              <li className='list-disc ml-4 my-2'>
+              </ListItem>
+              <ListItem>
                 Collaboration with Glauka Quintet and painter Lucía Rojas as a
                 composer with the creation of Grito al cielo (Scream to the
                 Sky), for wind quintet (2021), within the project Spain Arts,
                 Science and Culture in Belgium 2021 – Ventanilla abierta.
-              </li>
-              <li className='list-disc ml-4 my-2'>
+              </ListItem>
+              <ListItem>
                 Pieces commissioned by Avanti! Chamber Orchestra (Finland,
                 2022), Orchester im Treppenhaus (Germany, 2022) or Zodiac Trio
                 (US, 2021), among others.
-              </li>
+              </ListItem>
             </ul>
           </Paragraph>
           <br />
@@ -87,36 +88,36 @@ const FullAbout = () => {
             Some of the composition competitions I’ve been to
           </SubSectionHeader>
           <Paragraph>
-            <li className='list-disc ml-4 my-2'>
+            <ListItem>
               Akademiska Sångföreningen Choral Composition Competition – Third
               Prize (Helsinki, 2022)
-            </li>
-            <li className='list-disc ml-4 my-2'>
+            </ListItem>
+            <ListItem>
               Élan Prix by IRCAM and Orchestre national d’Île-de-France –
               Orchestra and Audience Awards (Paris, 2022)
-            </li>
-            <li className='list-disc ml-4 my-2'>
+            </ListItem>
+            <ListItem>
               Composer Slam Europe by Orchester im Treppenhaus – Finalist
               (Hannover, 2022)
-            </li>
-            <li className='list-disc ml-4 my-2'>
+            </ListItem>
+            <ListItem>
               {' '}
               Île de créations Composition Competition – Orchestra Award (Paris,
               2021)
-            </li>
-            <li className='list-disc ml-4 my-2'>
+            </ListItem>
+            <ListItem>
               Linköpings Studentsångare Composition Award – First Prize (Sweden,
               2020)
-            </li>
-            <li className='list-disc ml-4 my-2'>
+            </ListItem>
+            <ListItem>
               II Zodiac International Music Competition – First Prize,
               composition category (France-US, 2020)
-            </li>
-            <li className='list-disc ml-4 my-2'>
+            </ListItem>
+            <ListItem>
               {' '}
               International Antonín Dvorák Composition Competition – Second
               Prize, Junior category (Prague, 2019)
-            </li>
+            </ListItem>
             <SeeMore to='/media'>See more media {'>>'}</SeeMore>
           </Paragraph>
         </div>
