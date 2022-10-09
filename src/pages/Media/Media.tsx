@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 import Section from '../../components/Section'
+import YoutubeCaptionPair from '../../components/YoutubeCaptionPair'
 
 const youtubeMedia = [
   {
@@ -52,10 +53,7 @@ const Media = () => {
       <div className='w-full flex flex-col md:flex-row md:flex-wrap'>
         {youtubeMedia.map((item, index) => (
           <div className='w-full mb-8 mx-2 md:w-[calc(50%-theme(space.4))] xl:w-[calc(33%-theme(space.12))]'>
-            <ReactPlayer url={item.url} width='100%' />
-            <figcaption className='w-full text-center text-sm text-gray-500 mt-1'>
-              {item.title}
-            </figcaption>
+            <YoutubeCaptionPair url={item.url} caption={item.title} />
           </div>
         ))}
       </div>

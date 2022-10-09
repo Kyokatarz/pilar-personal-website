@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player/youtube'
 import Article from '../../../../components/Article'
 import Section from '../../../../components/Section'
 import SeeMore from '../../../../components/SeeMore'
+import YoutubeCaptionPair from '../../../../components/YoutubeCaptionPair'
 
 const Media = () => {
   return (
@@ -22,14 +23,10 @@ const Media = () => {
           </figcaption>
         </div>
         <div className='w-full'>
-          <ReactPlayer
+          <YoutubeCaptionPair
             url='https://www.youtube.com/watch?v=SoXzcFe78Jw&t=2645s'
-            width='100%'
+            caption='Cello Concerto, Five Pieces of Advice (2019) - Orchestre national d’Île-de-France, with Victor Julien- Laferrière'
           />
-          <figcaption className='w-full text-center text-sm text-gray-500 mt-1'>
-            Cello Concerto, Five Pieces of Advice (2019) - Orchestre national
-            d’Île-de-France, with Victor Julien- Laferrière
-          </figcaption>
         </div>
 
         <SeeMore to='/media'> See more media {'>>'}</SeeMore>
