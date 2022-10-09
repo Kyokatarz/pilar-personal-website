@@ -2,11 +2,11 @@ import React from 'react'
 import Article from '../../../../components/Article'
 import Paragraph from '../../../../components/Paragraph'
 import Section from '../../../../components/Section'
+import SubSectionHeader from '../../../../components/SubSectionHeader'
 
 import TheUgly from '../../assets/la-mujer-oro.jpeg'
 
 const Introduction = () => {
-  const paragraphHeaderClasses = 'underline font-bold'
   return (
     <Section>
       <div className='flex items-center justify-center mb-6 max-w-sm flex-col'>
@@ -16,15 +16,17 @@ const Introduction = () => {
         </figcaption>
       </div>
       <Article>
-        <header className='text-4xl text-black mb-2'>
-          PILAR MIRALLES
-          <p className='text-2xl italic text-gray-600'>
-            (Composer / sound artist)
-          </p>
+        <header>
+          <h1 className='text-4xl text-black mb-2'>
+            <span>PILAR MIRALLES</span> <br />
+            <span className='text-2xl italic text-gray-600'>
+              (Composer / sound artist)
+            </span>
+          </h1>
         </header>
+
+        <SubSectionHeader level={2}>Statement</SubSectionHeader>
         <Paragraph>
-          <span className={paragraphHeaderClasses}>Statement</span>
-          <br />
           I would like to question our approach to artistic expression up to
           this day, our capacity of perceiving and interpreting the world and
           the self, and our subsequent consciousness and freedom. I dream about
@@ -56,9 +58,9 @@ const Introduction = () => {
           <br />
           <br />
         </Paragraph>
+
+        <SubSectionHeader level={2}>Acknowledgements</SubSectionHeader>
         <Paragraph>
-          <span className={paragraphHeaderClasses}>Acknowledgements</span>
-          <br />
           Thanks to Jean-Paul Sartre for <span className='italic'>Nausea</span>,
           John Kennedy Toole for{' '}
           <span className='italic'>A Confederacy of Dunces</span>, and John
