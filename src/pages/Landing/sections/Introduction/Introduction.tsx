@@ -8,7 +8,7 @@ import TheUgly from '../../assets/la-mujer-oro.jpeg'
 
 const Introduction = () => {
   return (
-    <Section>
+    <Section id='landing-introduction'>
       <div className='flex items-center justify-center mb-6 max-w-sm flex-col'>
         <img src={TheUgly} alt='' className='max-w-full w-auto' />
         <figcaption className='w-full text-right text-xs italic'>
