@@ -11,9 +11,9 @@ import PilarWorking from './assets/pilar-working.jpg'
 const FullAbout = () => {
   return (
     <Section maxWidth='max-w-screen-sm lg:max-w-screen-xl'>
-      <h1 className='text-4xl font-bold text-center mb-6'>About Me</h1>
+      <h1 className='text-4xl font-bold text-center mb-6'>About me</h1>
       <div className='justify-center items-center w-full flex flex-col lg:items-start lg:flex-row lg:flex-wrap lg:justify-center'>
-        <div className='max-w-lg mr-10 mb-8 lg:w-4/12'>
+        <div className='max-w-lg lg:mr-10 mb-8 lg:w-4/12'>
           <img src={PilarWorking} alt='Pilar working' />
           <figcaption className='w-full text-right text-xs italic'>
             © Jonas Šopa
@@ -29,18 +29,21 @@ const FullAbout = () => {
           <br />
           <SubSectionHeader level={2}>Education</SubSectionHeader>
           <Paragraph>
-            <ListItem>
-              Master of Music in Composition at the Sibelius Academy, University
-              of the Arts Helsinki (Finland, 2022)
-            </ListItem>
-            <ListItem>
-              Master’s Degree in Electroacoustic Composition, Higher Center of
-              Musical Education “Katarina Gurska” of Madrid (Spain, 2020)
-            </ListItem>
-            <ListItem>
-              Bachelor’s Degree in Composition at the Royal Higher Conservatory
-              of Music “Victoria Eugenia” of Granada (Spain, 2019)
-            </ListItem>
+            <ul>
+              <ListItem>
+                Master of Music in Composition at the Sibelius Academy,
+                University of the Arts Helsinki (Finland, 2022)
+              </ListItem>
+              <ListItem>
+                Master’s Degree in Electroacoustic Composition, Higher Center of
+                Musical Education “Katarina Gurska” of Madrid (Spain, 2020)
+              </ListItem>
+              <ListItem>
+                Bachelor’s Degree in Composition at the Royal Higher
+                Conservatory of Music “Victoria Eugenia” of Granada (Spain,
+                2019)
+              </ListItem>
+            </ul>
           </Paragraph>
           <br />
           <SubSectionHeader level={2}>
@@ -88,36 +91,38 @@ const FullAbout = () => {
             Some of the composition competitions I’ve been to
           </SubSectionHeader>
           <Paragraph>
-            <ListItem>
-              Akademiska Sångföreningen Choral Composition Competition – Third
-              Prize (Helsinki, 2022)
-            </ListItem>
-            <ListItem>
-              Élan Prix by IRCAM and Orchestre national d’Île-de-France –
-              Orchestra and Audience Awards (Paris, 2022)
-            </ListItem>
-            <ListItem>
-              Composer Slam Europe by Orchester im Treppenhaus – Finalist
-              (Hannover, 2022)
-            </ListItem>
-            <ListItem>
-              {' '}
-              Île de créations Composition Competition – Orchestra Award (Paris,
-              2021)
-            </ListItem>
-            <ListItem>
-              Linköpings Studentsångare Composition Award – First Prize (Sweden,
-              2020)
-            </ListItem>
-            <ListItem>
-              II Zodiac International Music Competition – First Prize,
-              composition category (France-US, 2020)
-            </ListItem>
-            <ListItem>
-              {' '}
-              International Antonín Dvorák Composition Competition – Second
-              Prize, Junior category (Prague, 2019)
-            </ListItem>
+            <ul>
+              <ListItem>
+                Akademiska Sångföreningen Choral Composition Competition – Third
+                Prize (Helsinki, 2022)
+              </ListItem>
+              <ListItem>
+                Élan Prix by IRCAM and Orchestre national d’Île-de-France –
+                Orchestra and Audience Awards (Paris, 2022)
+              </ListItem>
+              <ListItem>
+                Composer Slam Europe by Orchester im Treppenhaus – Finalist
+                (Hannover, 2022)
+              </ListItem>
+              <ListItem>
+                {' '}
+                Île de créations Composition Competition – Orchestra Award
+                (Paris, 2021)
+              </ListItem>
+              <ListItem>
+                Linköpings Studentsångare Composition Award – First Prize
+                (Sweden, 2020)
+              </ListItem>
+              <ListItem>
+                II Zodiac International Music Competition – First Prize,
+                composition category (France-US, 2020)
+              </ListItem>
+              <ListItem>
+                {' '}
+                International Antonín Dvorák Composition Competition – Second
+                Prize, Junior category (Prague, 2019)
+              </ListItem>
+            </ul>
             <SeeMore to='/media'>See more media {'>>'}</SeeMore>
             <SeeMore to='/contact-me'>Contact me {'>>'}</SeeMore>
           </Paragraph>

@@ -17,10 +17,10 @@ const Introduction = () => {
       </div>
       <Article>
         <header>
-          <h1 className='text-4xl text-black mb-2'>
+          <h1 className='text-4xl text-black mb-6'>
             <span>PILAR MIRALLES</span> <br />
             <span className='text-2xl italic text-gray-600'>
-              (Composer / sound artist)
+              composer / whatever artist
             </span>
           </h1>
         </header>
@@ -44,10 +44,10 @@ const Introduction = () => {
           </span>
           <br />
           <br />
-          Besides music and sound art, I am interested in visual arts,
-          contemporary dance and literature. I am currently expanding my
-          knowledge in philosophy, sociology, pedagogy and history, focusing on
-          posing and answering questions such as:
+          Besides music and sound art, I am exploring visual arts, and
+          literature. I am currently expanding my knowledge in philosophy,
+          sociology, pedagogy and history of the arts, focusing on posing
+          questions such as:
           <br />
           <br />
           <span className='italic'>
