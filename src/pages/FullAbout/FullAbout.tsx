@@ -119,6 +119,7 @@ const FullAbout = () => {
               Prize, Junior category (Prague, 2019)
             </ListItem>
             <SeeMore to='/media'>See more media {'>>'}</SeeMore>
+            <SeeMore to='/contact-me'>Contact me {'>>'}</SeeMore>
           </Paragraph>
         </div>
       </div>

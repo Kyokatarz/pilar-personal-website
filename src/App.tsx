@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 
 import Landing from './pages/Landing'
 import Media from './pages/Media'
@@ -9,6 +9,7 @@ import ScrollToTop from './components/ScrollToTop'
 import Navbar from './components/Navbar'
 
 import './App.css'
+import ContactMeFull from './pages/ContactMeFull'
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Landing />} />
           <Route path='/media' element={<Media />} />
-          <Route path='about-me' element={<FullAbout />} />
+          <Route path='/about-me' element={<FullAbout />} />
+          <Route path='/contact-me' element={<ContactMeFull />} />
+          <Route path='*' element={<Navigate to='/' replace />} />
         </Routes>
       </main>
     </div>
