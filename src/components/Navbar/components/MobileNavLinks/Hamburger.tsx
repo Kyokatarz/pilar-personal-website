@@ -12,7 +12,7 @@ const Hamburger = ({ isOpen, setIsOpen }: Props) => {
 
   return (
     <div
-      className='md:hidden relative flex flex-col justify-center items-center cursor-pointer'
+      className='relative flex flex-col justify-center items-center cursor-pointer z-50'
       tabIndex={0}
       onClick={() => setIsOpen(!isOpen)}
     >
