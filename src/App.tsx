@@ -9,6 +9,7 @@ import ScrollToTop from './components/ScrollToTop'
 import Navbar from './components/Navbar'
 
 import './App.css'
+import ContactMeFull from './pages/ContactMeFull'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/' element={<Landing />} />
           <Route path='/media' element={<Media />} />
           <Route path='about-me' element={<FullAbout />} />
+          <Route path='contact-me' element={<ContactMeFull />} />
         </Routes>
       </main>
     </div>

@@ -15,9 +15,9 @@ const DesktopNavLinks = () => {
       </Link>
 
       {/* Using <a> tag to prevent scrolling to top */}
-      <a href='/#contact'>
+      <Link to='/contact-me'>
         <li>Contact</li>
-      </a>
+      </Link>
     </ul>
   )
 }

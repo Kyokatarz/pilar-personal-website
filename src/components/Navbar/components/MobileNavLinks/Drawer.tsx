@@ -39,11 +39,15 @@ const Drawer = ({ isOpen, setIsOpen }: Props) => {
         </Link>
 
         {/* Using <a> tag to prevent scrolling to top */}
-        <a href='/#contact' onClick={() => setIsOpen(false)} className='w-full'>
+        <Link
+          to='/contact-me'
+          onClick={() => setIsOpen(false)}
+          className='w-full'
+        >
           <div className='border-b border-gray-200 w-full h-10 flex justify-center items-center'>
             <li>Contact</li>
           </div>
-        </a>
+        </Link>
       </ul>
     </div>
   )
