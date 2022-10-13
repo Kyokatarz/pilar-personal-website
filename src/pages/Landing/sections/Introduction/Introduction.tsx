@@ -17,9 +17,9 @@ const Introduction = () => {
       </div>
       <Article>
         <header>
-          <h1 className='text-4xl text-black mb-6'>
-            <span>PILAR MIRALLES</span> <br />
-            <span className='text-2xl italic text-gray-600'>
+          <h1 className='text-4xl text-black mb-6 font-bold'>
+            <span>Pilar Miralles</span> <br />
+            <span className='text-2xl italic text-gray-600 font-normal'>
               composer / whatever artist
             </span>
           </h1>
