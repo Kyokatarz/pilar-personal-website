@@ -2,9 +2,11 @@ import React from 'react'
 import ReactPlayer from 'react-player/youtube'
 
 import Article from '../../../../components/Article'
+import SoundCloudIframe from '../../../../components/Navbar/components/SoundCloudIframe'
 import Section from '../../../../components/Section'
 import SeeMore from '../../../../components/SeeMore'
 import YoutubeCaptionPair from '../../../../components/YoutubeCaptionPair'
+import { dedbirbSoundCloud } from '../../../../constants/soundCloud'
 
 const Media = () => {
   return (
@@ -32,21 +34,10 @@ const Media = () => {
         <SeeMore to='/media'> See more media {'>>'}</SeeMore>
 
         <div className='w-full'>
-          <iframe
-            className='mt-12'
-            title='Soundcloud'
-            width='100%'
-            height='300'
-            scrolling='no'
-            frameBorder='no'
-            allow='autoplay'
-            src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1347363049&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+          <SoundCloudIframe
+            url={dedbirbSoundCloud.url}
+            caption={dedbirbSoundCloud.caption}
           />
-          <figcaption className='w-full text-center text-sm text-gray-500 mt-1'>
-            Computer-generated sound through SuperCollider programming language
-            - Composed at the Nordplus intensive course IMMEDIA in Vilnius
-            (Lithuania, 2021)
-          </figcaption>
         </div>
         <SeeMore
           to='https://soundcloud.com/pilar-miralles-huh'
