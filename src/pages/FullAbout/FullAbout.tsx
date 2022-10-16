@@ -34,6 +34,21 @@ const FullAbout = () => {
                 Master of Music in Composition at the Sibelius Academy,
                 University of the Arts Helsinki (Finland, 2022)
               </ListItem>
+              <ul>
+                <ListItem level={2} listStyle='list-square'>
+                  Published{' '}
+                  <a
+                    href='https://taju.uniarts.fi/handle/10024/7647'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='text-blue-500'
+                  >
+                    Master thesis
+                  </a>{' '}
+                  "Galina Ustvolskaya’s 'True and Eternal Bliss': spiritual
+                  creativity in the Soviet Union"
+                </ListItem>
+              </ul>
               <ListItem>
                 Master’s Degree in Electroacoustic Composition, Higher Center of
                 Musical Education “Katarina Gurska” of Madrid (Spain, 2020)

@@ -1,7 +1,10 @@
 import React from 'react'
+
 import ListItem from '../../components/ListItem/ListItem'
+import SoundCloudIframe from '../../components/Navbar/components/SoundCloudIframe'
 import Section from '../../components/Section'
 import YoutubeCaptionPair from '../../components/YoutubeCaptionPair'
+import { dedbirbSoundCloud } from '../../constants/soundCloud'
 
 const youtubeMedia = [
   {
@@ -57,6 +60,16 @@ const Media = () => {
           </div>
         ))}
       </div>
+
+      <div className='w-full'>
+        <div className='w-full max-w-full mb-8 md:w-[calc(50%-theme(space.4))] xl:w-[calc(33%-theme(space.12))] xl:mx-2'>
+          <SoundCloudIframe
+            url={dedbirbSoundCloud.url}
+            caption={dedbirbSoundCloud.caption}
+          />
+        </div>
+      </div>
+
       <div className='w-full flex flex-col md:flex-row md:flex-wrap'>
         <iframe
           style={{ borderRadius: '12px' }}
@@ -74,6 +87,7 @@ const Media = () => {
           genotypes) – Collaborative composition with José López-Montes (2021)
         </figcaption>
       </div>
+
       <div className='w-full text-left mt-16 border-black border-4 p-4 '>
         <p>
           Piano Concerto, "Allegory of the Five Industrial Forces" (2022) –

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import icon from './assets/icon.png'
+import icon from './assets/icon.svg'
 import DesktopNavLinks from './components/DesktopNavLinks'
 import MobileNavLinks from './components/MobileNavLinks'
 
