@@ -22,9 +22,9 @@ const SeeMore = ({ children, to, target, external }: Props) => {
   )
 
   return (
-    <div className='w-full flex justify-end text-black font-semibold italic underline text-large text-right mt-2'>
+    <span className='w-full flex justify-end text-black font-semibold italic underline text-large text-right mt-2'>
       {redirectComponent}
-    </div>
+    </span>
   )
 }
 
