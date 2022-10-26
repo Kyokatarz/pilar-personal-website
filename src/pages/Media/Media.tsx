@@ -52,6 +52,10 @@ const youtubeMedia = [
       'Piano Concerto, "Allegory of the Five Industrial Forces" (2022) – Orchestre national d’Île-de-France, with Marie-Ange Nguci',
     url: 'https://www.youtube.com/watch?v=quXTd4CR1sw',
   },
+  {
+    title: '"Abstraction II", bassoon and piano (2020) ',
+    url: 'https://www.youtube.com/watch?v=HeeLMgzz1YQ',
+  },
 ]
 
 const Media = () => {
