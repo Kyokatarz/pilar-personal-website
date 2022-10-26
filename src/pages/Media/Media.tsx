@@ -47,6 +47,11 @@ const youtubeMedia = [
       '"Relative Distance", for flute and computer-generated sound (2019) – Paco Rojas Huertas',
     url: 'https://www.youtube.com/watch?v=2j2BSpcZgkA',
   },
+  {
+    title:
+      'Piano Concerto, "Allegory of the Five Industrial Forces" (2022) – Orchestre national d’Île-de-France, with Marie-Ange Nguci',
+    url: 'https://www.youtube.com/watch?v=quXTd4CR1sw',
+  },
 ]
 
 const Media = () => {
@@ -88,35 +93,21 @@ const Media = () => {
         </figcaption>
       </div>
 
-      <div className='w-full text-left mt-16 border-black border-4 p-4 '>
-        <p>
-          Piano Concerto, "Allegory of the Five Industrial Forces" (2022) –
-          Orchestre national d’Île-de-France, with Marie-Ange Nguci Radio France
-          podcast (from 30’ 23’’)
-        </p>
-        <a
-          target='_blank'
-          rel='noreferrer'
-          href='https://www.radiofrance.fr/francemusique/podcasts/le-concert-du-soir/prix-elan-2022-marie-ange-nguci-et-l-orchestre-national-d-ile-de-france-dirige-par-rebecca-tong-6065433'
-          className='text-blue-500 underline'
-        >
-          Listen to the broadcast
-        </a>
-      </div>
       <div className='w-full text-left mt-8 border-black border-4 p-4 '>
         <p className='underline'>Selection of pieces not performed yet</p>
         <ul className='mt-8'>
           <ListItem>
             "Brief Requiem for the Poets and Prayers", for chamber orchestra
-            (2022) – To be premiered by Avanti! Chamber Orchestra in 2023{' '}
+            (2022) – To be premiered by Avanti! Chamber Orchestra in 2023
           </ListItem>
           <ListItem>
             "Anti-Philosophy of the Subject", for oboe, violin, viola and cello
-            (2022) – To be premiered by Cuarteto Emispherio in 2023{' '}
+            (2022) – To be premiered by Cuarteto Emispherio in 2023
           </ListItem>
           <ListItem>
             "Ota yksi, maksa kaksi", for two percussionists on prepared
-            vibraphone and two old radio-CD players (2022){' '}
+            vibraphone and two old radio-CD players (2022) – To be premiered by
+            QDuo in 2023
           </ListItem>
           <ListItem>
             Requiem mass, "Los hombres se mueren aunque no los maten" ("Men Die
