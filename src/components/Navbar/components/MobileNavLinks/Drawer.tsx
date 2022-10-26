@@ -11,7 +11,7 @@ const Drawer = ({ isOpen, setIsOpen }: Props) => {
   // Create nav bar drawer
   return (
     <div
-      className={`bg-white h-screen w-64 fixed top-0 right-0 z-40 shadow transition-transform ${open}`}
+      className={`bg-white h-screen w-64 fixed top-0 right-0 z-40 drop-shadow-lg border-l-2 border-black transition-transform ${open}`}
     >
       <ul className='flex flex-col mt-14 items-center h-full'>
         <a
@@ -19,7 +19,7 @@ const Drawer = ({ isOpen, setIsOpen }: Props) => {
           onClick={() => setIsOpen(false)}
           className='w-full'
         >
-          <div className='border-b border-gray-200 w-full h-10 flex justify-center items-center'>
+          <div className='border-b-2 border-black w-full h-10 flex justify-center items-center'>
             <li>Home</li>
           </div>
         </a>
@@ -28,12 +28,12 @@ const Drawer = ({ isOpen, setIsOpen }: Props) => {
           onClick={() => setIsOpen(false)}
           className='w-full'
         >
-          <div className='border-b border-gray-200 w-full h-10 flex justify-center items-center'>
+          <div className='border-b-2 border-black w-full h-10 flex justify-center items-center'>
             <li>About me</li>
           </div>
         </Link>
         <Link to='/media' onClick={() => setIsOpen(false)} className='w-full'>
-          <div className='border-b border-gray-200 w-full h-10 flex justify-center items-center'>
+          <div className='border-b-2 border-black w-full h-10 flex justify-center items-center'>
             <li>Media</li>
           </div>
         </Link>
@@ -44,7 +44,7 @@ const Drawer = ({ isOpen, setIsOpen }: Props) => {
           onClick={() => setIsOpen(false)}
           className='w-full'
         >
-          <div className='border-b border-gray-200 w-full h-10 flex justify-center items-center'>
+          <div className='border-b-2 border-black w-full h-10 flex justify-center items-center'>
             <li>Contact</li>
           </div>
         </Link>

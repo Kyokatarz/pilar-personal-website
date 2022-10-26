@@ -1,3 +1,4 @@
+import clsx from 'clsx'
 import React from 'react'
 
 type Props = {
@@ -7,10 +8,10 @@ type Props = {
 }
 
 const ListItem = ({ children, level = 1, listStyle = 'list-disc' }: Props) => {
-  const indent = level * 4
-  const levelIndent = `ml-${indent}`
-
-  const className = `${levelIndent} ${listStyle}`
+  const className = clsx(listStyle, {
+    'ml-4': level === 1,
+    'ml-8': level === 2,
+  })
 
   return <li className={className}>{children}</li>
 }

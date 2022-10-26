@@ -28,38 +28,35 @@ const FullAbout = () => {
           </Paragraph>
           <br />
           <SubSectionHeader level={2}>Education</SubSectionHeader>
-          <Paragraph>
+          <ul className='text-left'>
+            <ListItem>
+              Master of Music in Composition at the Sibelius Academy, University
+              of the Arts Helsinki (Finland, 2022)
+            </ListItem>
             <ul>
-              <ListItem>
-                Master of Music in Composition at the Sibelius Academy,
-                University of the Arts Helsinki (Finland, 2022)
-              </ListItem>
-              <ul>
-                <ListItem level={2} listStyle='list-square'>
-                  Published{' '}
-                  <a
-                    href='https://taju.uniarts.fi/handle/10024/7647'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='text-blue-500'
-                  >
-                    Master thesis
-                  </a>{' '}
-                  "Galina Ustvolskaya’s 'True and Eternal Bliss': spiritual
-                  creativity in the Soviet Union"
-                </ListItem>
-              </ul>
-              <ListItem>
-                Master’s Degree in Electroacoustic Composition, Higher Center of
-                Musical Education “Katarina Gurska” of Madrid (Spain, 2020)
-              </ListItem>
-              <ListItem>
-                Bachelor’s Degree in Composition at the Royal Higher
-                Conservatory of Music “Victoria Eugenia” of Granada (Spain,
-                2019)
+              <ListItem level={2} listStyle='list-square'>
+                Published{' '}
+                <a
+                  href='https://taju.uniarts.fi/handle/10024/7647'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='text-blue-500'
+                >
+                  Master thesis
+                </a>{' '}
+                "Galina Ustvolskaya’s 'True and Eternal Bliss': spiritual
+                creativity in the Soviet Union"
               </ListItem>
             </ul>
-          </Paragraph>
+            <ListItem>
+              Master’s Degree in Electroacoustic Composition, Higher Center of
+              Musical Education “Katarina Gurska” of Madrid (Spain, 2020)
+            </ListItem>
+            <ListItem>
+              Bachelor’s Degree in Composition at the Royal Higher Conservatory
+              of Music “Victoria Eugenia” of Granada (Spain, 2019)
+            </ListItem>
+          </ul>
           <br />
           <SubSectionHeader level={2}>
             Some of the things I’ve done

@@ -48,6 +48,10 @@ const Contact = () => {
     <Section id='contact'>
       <Article>
         <h1 className='text-4xl font-bold text-left mb-8 w-full'>Contact</h1>
+        <p className='text-left mb-8 border-b-2 border-black pb-4 max-w-max'>
+          Want to play my music? Need a composer? Any questions overall? <br />
+          Please feel free to reach me out using this form 👇🏽
+        </p>
         <div className='flex flex-col items-start mb-8'>
           <p>
             <span className='mr-8 font-semibold'>Email: </span>
