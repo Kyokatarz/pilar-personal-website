@@ -11,12 +11,15 @@ const About = () => {
         <h1 className='text-5xl font-bold text-left mb-4'>Hi,</h1>
         <Paragraph>
           My name is Pilar Miralles and I was born in Almería (Spain) in 1997. I
-          am a composer and sound artist currently based in Helsinki (Finland).
-          I speak Spanish, English and a bit of French. After having graduated
-          from the University of the Arts Helsinki, I am focused on expanding my
-          personal artistic practice and knowledge, seeking intermedia
-          collaborations and embracing a constant attitude of opening,
-          perceiving and questioning.
+          am a composer, sound artist and writer based in Espoo (Finland). I
+          completed my Master's Degree in Electroacoustic Composition in 2020 in
+          Madrid (Spain) and my Master of Music in Composition in 2022 at the
+          Sibelius Academy of the University of the Arts Helsinki (Finland). And
+          now my current work deals with the emotional and social constraints
+          imposed by the fast-paced everyday life and immediacy era, express the
+          necessity of personal space and time for preception freedom and
+          consciousness as basics of human dignity. I am currently aiming for my
+          future doctoral studies in composition.
         </Paragraph>
         <SeeMore to='/about-me'>See more about me {'>>'}</SeeMore>
       </Article>

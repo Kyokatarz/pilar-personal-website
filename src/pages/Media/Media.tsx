@@ -4,12 +4,12 @@ import ListItem from '../../components/ListItem/ListItem'
 import SoundCloudIframe from '../../components/Navbar/components/SoundCloudIframe'
 import Section from '../../components/Section'
 import YoutubeCaptionPair from '../../components/YoutubeCaptionPair'
-import { dedbirbSoundCloud } from '../../constants/soundCloud'
+import soundCloud from '../../constants/soundCloud'
 
 const youtubeMedia = [
   {
     title:
-      '"How Difficult is to Cry Today", for piano, cello and tape (2022) – Defunensemble ',
+      '"How Difficult It Is to Cry Today", for piano, cello and tape (2022) – Defunensemble ',
     url: 'https://youtu.be/Fxkw14wEIvw?t=1874',
   },
   {
@@ -70,13 +70,12 @@ const Media = () => {
         ))}
       </div>
 
-      <div className='w-full'>
-        <div className='w-full max-w-full mb-8 md:w-[calc(50%-theme(space.4))] xl:w-[calc(33%-theme(space.12))] xl:mx-2'>
-          <SoundCloudIframe
-            url={dedbirbSoundCloud.url}
-            caption={dedbirbSoundCloud.caption}
-          />
-        </div>
+      <div className='w-full flex flex-col md:flex-row md:flex-wrap'>
+        {soundCloud.map((item) => (
+          <div className='w-full max-w-full mb-8 md:w-[calc(50%-theme(space.4))] xl:w-[calc(33%-theme(space.12))] xl:mx-2'>
+            <SoundCloudIframe url={item.url} caption={item.caption} />
+          </div>
+        ))}
       </div>
 
       <div className='w-full flex flex-col md:flex-row md:flex-wrap'>
@@ -98,7 +97,7 @@ const Media = () => {
       </div>
 
       <div className='w-full text-left mt-8 border-black border-4 p-4 '>
-        <p className='underline'>Selection of pieces not performed yet</p>
+        <p className='underline'>Upcoming premiers</p>
         <ul className='mt-8'>
           <ListItem>
             "Brief Requiem for the Poets and Prayers", for chamber orchestra
@@ -116,11 +115,11 @@ const Media = () => {
           <ListItem>
             Requiem mass, "Los hombres se mueren aunque no los maten" ("Men Die
             Although They Are Not Killed"), for orchestra, SATB choir and
-            soloist piano (2020-22)
+            soloist piano (2020-22) - Pending
           </ListItem>
-          <ListItem>"Two Fughettas", for violin and piano (2021)</ListItem>
           <ListItem>
-            "Four Songs for the End of a Life", for SATB choir and piano (2020)
+            "Music for the Masses", for clarinet/bass clarinet and tape – To be
+            premiered by Mikko Raasakka in 2022
           </ListItem>
         </ul>
       </div>

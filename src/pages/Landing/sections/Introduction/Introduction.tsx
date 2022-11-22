@@ -20,7 +20,7 @@ const Introduction = () => {
           <h1 className='text-4xl text-black mb-6'>
             <span>PILAR MIRALLES</span> <br />
             <span className='text-2xl italic text-gray-600'>
-              composer / whatever artist
+              composer / sound artist / writer
             </span>
           </h1>
         </header>
@@ -64,12 +64,11 @@ const Introduction = () => {
           Thanks to Jean-Paul Sartre for <span className='italic'>Nausea</span>,
           John Kennedy Toole for{' '}
           <span className='italic'>A Confederacy of Dunces</span>, and John
-          Steinbeck for
-          <span className='italic'>The Grapes of Wrath</span>.
+          Steinbeck for <span className='italic'>The Grapes of Wrath</span>.
           <br />
           <br />
-          Thanks to Galina Ustvolskaya, the truest composer, and to Alexandre
-          Tansman for his Sonatina for Bassoon and Piano.
+          Thanks to Galina Ustvolskaya, the truest composer, and to Éliane
+          Radigue for defying the immediacy era.
           <br />
           <br />
           Thanks to Paulo Freire and his{' '}
