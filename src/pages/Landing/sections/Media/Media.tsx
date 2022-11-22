@@ -6,7 +6,7 @@ import SoundCloudIframe from '../../../../components/Navbar/components/SoundClou
 import Section from '../../../../components/Section'
 import SeeMore from '../../../../components/SeeMore'
 import YoutubeCaptionPair from '../../../../components/YoutubeCaptionPair'
-import { dedbirbSoundCloud } from '../../../../constants/soundCloud'
+import { oratio } from '../../../../constants/soundCloud'
 
 const Media = () => {
   return (
@@ -19,7 +19,7 @@ const Media = () => {
             width='100%'
           />
           <figcaption className='w-full text-center text-sm text-gray-500 mt-1'>
-            Caressing You till My Fingers Bleed, for computer-generated sound
+            "Caressing You till My Fingers Bleed", for computer-generated sound
             (2020) – MuTeFest 20’ (Festival of Musical Creation with Technology
             2020)
           </figcaption>
@@ -27,17 +27,14 @@ const Media = () => {
         <div className='w-full'>
           <YoutubeCaptionPair
             url='https://www.youtube.com/watch?v=SoXzcFe78Jw&t=2645s'
-            caption='Cello Concerto, Five Pieces of Advice (2019) - Orchestre national d’Île-de-France, with Victor Julien- Laferrière'
+            caption='Cello Concerto, "Five Pieces of Advice" (2019) - Orchestre national d’Île-de-France, with Victor Julien-Laferrière'
           />
         </div>
 
         <SeeMore to='/media'> See more media {'>>'}</SeeMore>
 
         <div className='w-full'>
-          <SoundCloudIframe
-            url={dedbirbSoundCloud.url}
-            caption={dedbirbSoundCloud.caption}
-          />
+          <SoundCloudIframe url={oratio.url} caption={oratio.caption} />
         </div>
         <SeeMore
           to='https://soundcloud.com/pilar-miralles-huh'

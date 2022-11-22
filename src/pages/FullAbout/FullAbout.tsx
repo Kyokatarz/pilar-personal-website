@@ -22,9 +22,9 @@ const FullAbout = () => {
         <div className='lg:w-5/12'>
           <Paragraph>
             Hi! My name is Pilar Miralles and I was born in Almería (Spain) in
-            1997. I am a composer and sound artist currently based in Helsinki
+            1997. I am a composer, sound artist and writer based in Espoo
             (Finland). I speak Spanish, English and a bit of French. You can
-            find my artist statement in the home page.
+            find my artist statement and short bio in the home page.
           </Paragraph>
           <br />
           <SubSectionHeader level={2}>Education</SubSectionHeader>
@@ -105,33 +105,33 @@ const FullAbout = () => {
           <Paragraph>
             <ul>
               <ListItem>
-                Akademiska Sångföreningen Choral Composition Competition – Third
+                Akademiska Sångföreningen Choral Composition Competition, Third
                 Prize (Helsinki, 2022)
               </ListItem>
               <ListItem>
-                Élan Prix by IRCAM and Orchestre national d’Île-de-France –
+                Élan Prix by IRCAM and Orchestre national d’Île-de-France,
                 Orchestra and Audience Awards (Paris, 2022)
               </ListItem>
               <ListItem>
-                Composer Slam Europe by Orchester im Treppenhaus – Finalist
+                Composer Slam Europe by Orchester im Treppenhaus, Finalist
                 (Hannover, 2022)
               </ListItem>
               <ListItem>
                 {' '}
-                Île de créations Composition Competition – Orchestra Award
+                Île de créations Composition Competition, Orchestra Award
                 (Paris, 2021)
               </ListItem>
               <ListItem>
-                Linköpings Studentsångare Composition Award – First Prize
+                Linköpings Studentsångare Composition Award, First Prize
                 (Sweden, 2020)
               </ListItem>
               <ListItem>
-                II Zodiac International Music Competition – First Prize,
+                II Zodiac International Music Competition, First Prize,
                 composition category (France-US, 2020)
               </ListItem>
               <ListItem>
                 {' '}
-                International Antonín Dvorák Composition Competition – Second
+                International Antonín Dvorák Composition Competition, Second
                 Prize, Junior category (Prague, 2019)
               </ListItem>
             </ul>
