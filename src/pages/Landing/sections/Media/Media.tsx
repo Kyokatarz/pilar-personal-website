@@ -6,13 +6,14 @@ import SoundCloudIframe from '../../../../components/Navbar/components/SoundClou
 import Section from '../../../../components/Section'
 import SeeMore from '../../../../components/SeeMore'
 import YoutubeCaptionPair from '../../../../components/YoutubeCaptionPair'
-import { oratio } from '../../../../constants/soundCloud'
+import { dedbirbSoundCloud } from '../../../../constants/soundCloud'
 
 const Media = () => {
   return (
     <Section>
       <Article>
         <h1 className='text-4xl font-bold text-left mb-8 w-full'>Media</h1>
+
         <div className='w-full mb-12'>
           <ReactPlayer
             url='https://www.youtube.com/watch?v=5KWVNMhr85w&t=1343s'
@@ -24,6 +25,7 @@ const Media = () => {
             2020)
           </figcaption>
         </div>
+
         <div className='w-full'>
           <YoutubeCaptionPair
             url='https://www.youtube.com/watch?v=SoXzcFe78Jw&t=2645s'
@@ -34,8 +36,12 @@ const Media = () => {
         <SeeMore to='/media'> See more media {'>>'}</SeeMore>
 
         <div className='w-full'>
-          <SoundCloudIframe url={oratio.url} caption={oratio.caption} />
+          <SoundCloudIframe
+            url={dedbirbSoundCloud.url}
+            caption={dedbirbSoundCloud.caption}
+          />
         </div>
+
         <SeeMore
           to='https://soundcloud.com/pilar-miralles-huh'
           external
