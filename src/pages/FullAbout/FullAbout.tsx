@@ -18,6 +18,21 @@ const FullAbout = () => {
           <figcaption className='w-full text-right text-xs italic'>
             © Jonas Šopa
           </figcaption>
+          <div className='mt-24 w-full text-left border-black border-4 p-4 hidden lg:block'>
+            <Paragraph>
+              I use SuperCollider programming language for composing my
+              electroacoustic works. You can check out my{' '}
+              <a
+                href='https://github.com/pilarmiralles'
+                target='_blank'
+                rel='noreferrer'
+                className='text-blue-500'
+              >
+                GitHub
+              </a>{' '}
+              for SuperCollider theory and solutions to specific tasks.
+            </Paragraph>
+          </div>
         </div>
         <div className='lg:w-5/12'>
           <Paragraph>
@@ -98,7 +113,6 @@ const FullAbout = () => {
             </ul>
           </Paragraph>
           <br />
-
           <SubSectionHeader level={2}>
             Some of the composition competitions I’ve been to
           </SubSectionHeader>
@@ -135,6 +149,21 @@ const FullAbout = () => {
                 Prize, Junior category (Prague, 2019)
               </ListItem>
             </ul>
+            <div className='mt-10 mb-10 w-full text-left border-black border-4 p-4 lg:hidden'>
+              <Paragraph>
+                I use SuperCollider programming language for composing my
+                electroacoustic works. You can check out my{' '}
+                <a
+                  href='https://github.com/pilarmiralles'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='text-blue-500'
+                >
+                  GitHub
+                </a>{' '}
+                for SuperCollider theory and solutions to specific tasks.
+              </Paragraph>
+            </div>
             <SeeMore to='/media'>See more media {'>>'}</SeeMore>
             <SeeMore to='/contact-me'>Contact me {'>>'}</SeeMore>
           </Paragraph>

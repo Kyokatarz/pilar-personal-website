@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaFacebook } from 'react-icons/fa'
-import { ImSoundcloud2 } from 'react-icons/im'
+import { ImSoundcloud2, ImGithub } from 'react-icons/im'
 import { IconContext } from 'react-icons'
 import axios from 'axios'
 
@@ -67,12 +67,12 @@ const Contact = () => {
             href='https://www.facebook.com/pilota.miralles'
             target='_blank'
             rel='noreferrer'
+            className='mr-4'
           >
             <IconContext.Provider
               value={{
                 size: '2.5em',
                 color: '#3b5998',
-                style: { marginRight: '8px' },
               }}
             >
               <FaFacebook />
@@ -82,15 +82,29 @@ const Contact = () => {
             href='https://soundcloud.com/pilar-miralles-huh'
             target='_blank'
             rel='noreferrer'
+            className='mr-4'
           >
             <IconContext.Provider
               value={{
                 size: '2.5em',
                 color: '#ff7700',
-                style: { marginLeft: '8px' },
               }}
             >
               <ImSoundcloud2 />
+            </IconContext.Provider>
+          </a>
+          <a
+            href='https://github.com/pilarmiralles'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <IconContext.Provider
+              value={{
+                size: '2.5em',
+                color: '#000000',
+              }}
+            >
+              <ImGithub />
             </IconContext.Provider>
           </a>
         </div>
