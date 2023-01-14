@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='App'>
       <Navbar />
-      <ScrollToTop />˝
+      <ScrollToTop />
       <main className='pt-14'>
         <Routes>
           <Route path='/' element={<Landing />} />
@@ -25,6 +25,17 @@ function App() {
           <Route path='*' element={<Navigate to='/' replace />} />
         </Routes>
       </main>
+      <footer className='mb-5'>
+        Open source website @{' '}
+        <a
+          href='https://github.com/Kyokatarz/pilar-personal-website'
+          target='_blank'
+          rel='noreferrer'
+          className='text-blue-500'
+        >
+          GitHub
+        </a>{' '}
+      </footer>
     </div>
   )
 }
