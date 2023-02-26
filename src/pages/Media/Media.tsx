@@ -56,6 +56,11 @@ const youtubeMedia = [
     title: '"Abstraction II", bassoon and piano (2020) ',
     url: 'https://www.youtube.com/watch?v=HeeLMgzz1YQ',
   },
+  {
+    title:
+      '"Ota yksi, maksa kaksi" ("Get One for the Price of Two"), for prepared vibraphone and two CD players (2022) - QDuo (Alejandro Sancho Pérez and José Antonio Caballero Rodríguez)',
+    url: 'https://www.youtube.com/watch?v=Wp0UG4VSiGc',
+  },
 ]
 
 const Media = () => {
@@ -100,26 +105,27 @@ const Media = () => {
         <p className='underline'>Upcoming premiers</p>
         <ul className='mt-8'>
           <ListItem>
+            "Anti-Philosophy of the Subject", for oboe, violin, viola and cello
+            (2022) – To be premiered by Cuarteto Emispherio March 5th 2023
+            (Seville)
+          </ListItem>
+          <ListItem>
+            "Ya no siento el deslizamiento, los roces del tiempo", for blinking
+            lights, CD players, offstage viola and piano (2023) - To be
+            premiered at VANG VI Festival in June 23rd 2023 (Madrid)
+          </ListItem>
+          <ListItem>
+            New piece for ensemble (to be confirmed) - To be premiered at
+            Musiikin aika (Time of Music Festival) in July 2023 (Viitasaari)
+          </ListItem>
+          <ListItem>
             "Brief Requiem for the Poets and Prayers", for chamber orchestra
             (2022) – To be premiered by Avanti! Chamber Orchestra in 2023
-          </ListItem>
-          <ListItem>
-            "Anti-Philosophy of the Subject", for oboe, violin, viola and cello
-            (2022) – To be premiered by Cuarteto Emispherio in 2023
-          </ListItem>
-          <ListItem>
-            "Ota yksi, maksa kaksi", for two percussionists on prepared
-            vibraphone and two old radio-CD players (2022) – To be premiered by
-            QDuo in 2023
           </ListItem>
           <ListItem>
             Requiem mass, "Los hombres se mueren aunque no los maten" ("Men Die
             Although They Are Not Killed"), for orchestra, SATB choir and
             soloist piano (2020-22) - Pending
-          </ListItem>
-          <ListItem>
-            "Music for the Masses", for clarinet/bass clarinet and tape – To be
-            premiered by Mikko Raasakka in 2022
           </ListItem>
         </ul>
       </div>
