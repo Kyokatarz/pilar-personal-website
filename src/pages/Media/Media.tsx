@@ -61,6 +61,11 @@ const youtubeMedia = [
       '"Ota yksi, maksa kaksi" ("Get One for the Price of Two"), for prepared vibraphone and two CD players (2022) - QDuo (Alejandro Sancho Pérez and José Antonio Caballero Rodríguez)',
     url: 'https://www.youtube.com/watch?v=Wp0UG4VSiGc',
   },
+  {
+    title:
+      '"Plastic Hugs. Emptiness", for bassoon, percussion and tape (2020) - Honk and Bonk! (Cassandra Roache and Bryan Wysocki)',
+    url: 'https://www.youtube.com/watch?v=EQgjAt7dFG4',
+  },
 ]
 
 const Media = () => {
