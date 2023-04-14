@@ -43,7 +43,7 @@ const FullAbout = () => {
           </Paragraph>
           <br />
           <SubSectionHeader level={2}>Education</SubSectionHeader>
-          <ul className='text-left'>
+          <ul className='text-justify'>
             <ListItem>
               Master of Music in Composition at the Sibelius Academy, University
               of the Arts Helsinki (Finland, 2022)
