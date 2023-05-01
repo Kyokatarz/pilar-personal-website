@@ -46,14 +46,18 @@ const Introduction = () => {
           <br />
           Besides music and sound art, I am exploring visual arts, and
           literature. I am currently expanding my knowledge in philosophy,
-          sociology, pedagogy and history of the arts, focusing on posing
-          questions such as:
+          sociology, pedagogy and history of the arts, focusing on finding a
+          solid ground, presence and intention for my creative necessities. Some
+          of my current keywords are sonic space, vertical time, non-teleology,
+          and automatized (default) consciousness:
           <br />
           <br />
           <span className='italic'>
-            What is happening to art? What is happening to the world? What is
-            happening to us? Is art as a condition for human dignity falling
-            into disuse?
+            More and more I have the feeling that we are getting nowhere.
+            Slowly, as the talk goes on, we are getting nowhere and that is a
+            pleasure… Originally, we were nowhere; and now, again, we are having
+            the pleasure of being slowly nowhere. If anybody is sleepy, let him
+            go to sleep (John Cage, "Lecture on Nothing").
           </span>
           <br />
           <br />

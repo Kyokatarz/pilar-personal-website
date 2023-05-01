@@ -66,6 +66,11 @@ const youtubeMedia = [
       '"Plastic Hugs. Emptiness", for bassoon, percussion and tape (2020) - Honk and Bonk! (Cassandra Roache and Bryan Wysocki)',
     url: 'https://www.youtube.com/watch?v=EQgjAt7dFG4',
   },
+  {
+    title:
+      ' "Anti-Philosophy of the Subject; Mankind\'s Origin Is in Its Fellows", for oboe and string trio (2022) - Cuarteto Emispherio',
+    url: 'https://www.youtube.com/watch?v=XwoO4x_gT54',
+  },
 ]
 
 const Media = () => {
@@ -110,22 +115,21 @@ const Media = () => {
         <p className='underline'>Upcoming premiers</p>
         <ul className='mt-8'>
           <ListItem>
-            "Anti-Philosophy of the Subject", for oboe, violin, viola and cello
-            (2022) – To be premiered by Cuarteto Emispherio March 5th 2023
-            (Seville)
-          </ListItem>
-          <ListItem>
             "Ya no siento el deslizamiento, los roces del tiempo", for blinking
             lights, CD players, offstage viola and piano (2023) - To be
-            premiered at VANG VI Festival in June 23rd 2023 (Madrid)
+            premiered at VANG VI Festival in June 2023 (Madrid)
           </ListItem>
           <ListItem>
-            New piece for ensemble (to be confirmed) - To be premiered at
-            Musiikin aika (Time of Music Festival) in July 2023 (Viitasaari)
+            "I don't expect anything from this afternoon; I will let time
+            soften, stretch, open its seams and let the threads peek out from
+            behind", for violin, bass clarinet, cello and percussion - To be
+            premiered at Musiikin aika (Time of Music Festival) in July 2023
+            (Viitasaari)
           </ListItem>
           <ListItem>
             "Brief Requiem for the Poets and Prayers", for chamber orchestra
-            (2022) – To be premiered by Avanti! Chamber Orchestra in 2023
+            (2022) – To be premiered by Avanti! Chamber Orchestra in September
+            2023 (Helsinki)
           </ListItem>
           <ListItem>
             Requiem mass, "Los hombres se mueren aunque no los maten" ("Men Die

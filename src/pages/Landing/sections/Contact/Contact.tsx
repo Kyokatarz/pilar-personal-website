@@ -49,7 +49,7 @@ const Contact = () => {
       <Article>
         <h1 className='text-4xl font-bold text-left mb-8 w-full'>Contact</h1>
         <p className='text-left mb-8 border-b-2 border-black pb-4 max-w-max'>
-          Please feel free to reach me out using this form for more information
+          Please, feel free to reach me out using this form for more information
           about my music, my work or any other inquiry.
         </p>
         <div className='flex flex-col items-start mb-8'>
