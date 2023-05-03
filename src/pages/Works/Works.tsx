@@ -9,6 +9,15 @@ const Works = () => {
       <ul className='text-justify'>
         <ListItem>
           <em>
+            I don't expect anything from this afternoon; I will let time soften,
+            stretch, open its seams and let the threads peek out from behind
+          </em>
+          , for violin, bass clarinet, cello and percussion (May 2023) - To be
+          premiered during Time of Music Festival in July 2023 in Viitasaari,
+          Finland (score in development)
+        </ListItem>
+        <ListItem>
+          <em>
             Ya no siento el desplazamiento, los roces del tiempo (I can’t feel
             the displacement, the graze of time, anymore)
           </em>
@@ -60,9 +69,7 @@ const Works = () => {
           </a>
         </ListItem>
         <ListItem>
-          <em>Cum erubuerint infelices</em>, for male choir (April 2022) –
-          Premiered by the choir <em>Akademiska Sångföreningen</em> in Helsinki,
-          Music House, on April 22nd 2023{' '}
+          <em>Cum erubuerint infelices</em>, for male choir (April 2022){' '}
           <a
             href='https://archive.org/details/cum-erubuerint-infelices'
             target='_blank'

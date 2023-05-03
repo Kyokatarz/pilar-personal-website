@@ -14,14 +14,11 @@ const About = () => {
           am a composer, sound artist and writer based in Espoo (Finland). I
           completed my Master's Degree in Electroacoustic Composition in 2020 in
           Madrid (Spain) and my Master of Music in Composition in 2022 at the
-          Sibelius Academy of the University of the Arts Helsinki (Finland). My 
-          current artistic and research work deals with the emotional and social 
-          constraints imposed by the fast-paced everyday life and immediacy era, 
-          expressing the necessity of personal space and time to free the perception 
-          and consciousness as basics of human dignity. Besides seeking opportunities 
-          to compose, I am aiming for my future Doctoral studies in composition and 
-          compiling my main ideas into a literary essay.
-
+          Sibelius Academy of the University of the Arts Helsinki (Finland). My
+          current artistic and research work is focused on bringing about a
+          series of favorable conditions within an artistic situation which
+          could allow the audience to question their perception as the main tool
+          for the liberation of consciousness of the world and the self.
         </Paragraph>
         <SeeMore to='/about-me'>See more about me {'>>'}</SeeMore>
       </Article>
