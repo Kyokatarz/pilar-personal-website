@@ -9,7 +9,7 @@ import soundCloud from '../../constants/soundCloud'
 const youtubeMedia = [
   {
     title:
-      '"How Difficult It Is to Cry Today", for piano, cello and tape (2022) – Defunensemble ',
+      '"How Difficult It Is to Cry Today", for piano, cello and tape (2022) – Defunensemble',
     url: 'https://youtu.be/Fxkw14wEIvw?t=1874',
   },
   {
@@ -68,8 +68,13 @@ const youtubeMedia = [
   },
   {
     title:
-      ' "Anti-Philosophy of the Subject; Mankind\'s Origin Is in Its Fellows", for oboe and string trio (2022) - Cuarteto Emispherio',
+      '"Anti-Philosophy of the Subject; Mankind\'s Origin Is in Its Fellows", for oboe and string trio (2022) - Cuarteto Emispherio',
     url: 'https://www.youtube.com/watch?v=XwoO4x_gT54',
+  },
+  {
+    title:
+      '"Nun komm, der Heiden Heiland", acousmatic work (2020) - Live electroacoustic sound diffusion',
+    url: 'https://www.youtube.com/watch?v=jpSFiFXpY-A',
   },
 ]
 
@@ -77,6 +82,15 @@ const Media = () => {
   return (
     <Section maxWidth='max-w-screen-2xl'>
       <h1 className='text-4xl font-bold text-center mb-6'>Media</h1>
+      <span className='text-1xl italic text-gray-600'>
+        Many of my works to this day do not represent my current artistic
+        interests. Take a look at my{' '}
+        <a className='text-blue-500' href='/#statement'>
+          artist statement
+        </a>{' '}
+        to get an idea of what I could be up to for upcoming creations.
+      </span>
+      <br />
       <div className='w-full flex flex-col md:flex-row md:flex-wrap'>
         {youtubeMedia.map((item, index) => (
           <div className='w-full max-w-full mb-8 md:w-[calc(50%-theme(space.4))] xl:w-[calc(33%-theme(space.12))] xl:mx-2'>
@@ -115,26 +129,19 @@ const Media = () => {
         <p className='underline'>Upcoming premiers</p>
         <ul className='mt-8'>
           <ListItem>
-            "Ya no siento el deslizamiento, los roces del tiempo", for blinking
-            lights, CD players, offstage viola and piano (2023) - To be
-            premiered at VANG VI Festival in June 2023 (Madrid)
+            "I don't expect anything from this afternoon", for violin, bass
+            clarinet, violoncello and percussion (2023) - To be premiered by
+            Norrbotten NEO at Musiikin aika (Time of Music Festival) on July 9,
+            2023 (Viitasaari's Parish Hall, Finland)
           </ListItem>
           <ListItem>
-            "I don't expect anything from this afternoon; I will let time
-            soften, stretch, open its seams and let the threads peek out from
-            behind", for violin, bass clarinet, cello and percussion - To be
-            premiered at Musiikin aika (Time of Music Festival) in July 2023
-            (Viitasaari)
+            New piece for ensemble (to be confirmed) - To be premiered at the
+            biennial akademie kontemporär, in September 2023 (Hamburg, Germany)
           </ListItem>
           <ListItem>
             "Brief Requiem for the Poets and Prayers", for chamber orchestra
-            (2022) – To be premiered by Avanti! Chamber Orchestra in September
-            2023 (Helsinki)
-          </ListItem>
-          <ListItem>
-            Requiem mass, "Los hombres se mueren aunque no los maten" ("Men Die
-            Although They Are Not Killed"), for orchestra, SATB choir and
-            soloist piano (2020-22) - Pending
+            (2022) – To be premiered by Avanti! Chamber Orchestra at Sovisoitto
+            (Summer Sounds Festival) in June 2024 (Porvoo, Finland)
           </ListItem>
         </ul>
       </div>

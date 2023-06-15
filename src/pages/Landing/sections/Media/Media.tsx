@@ -28,8 +28,8 @@ const Media = () => {
 
         <div className='w-full'>
           <YoutubeCaptionPair
-            url='https://www.youtube.com/watch?v=SoXzcFe78Jw&t=2645s'
-            caption='Cello Concerto, "Five Pieces of Advice" (2019) - Orchestre national d’Île-de-France, with Victor Julien-Laferrière'
+            url='https://youtu.be/Fxkw14wEIvw?t=1874'
+            caption='"How Difficult It Is to Cry Today", for piano, cello and tape (2022) – Defunensemble'
           />
         </div>
 
