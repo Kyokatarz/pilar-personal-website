@@ -12,9 +12,10 @@ const Works = () => {
             I don't expect anything from this afternoon; I will let time soften,
             stretch, open its seams and let the threads peek out from behind
           </em>
-          , for violin, bass clarinet, cello and percussion (May 2023) - To be
-          premiered during Time of Music Festival in July 2023 in Viitasaari,
-          Finland (score in development)
+          , for violin, bass clarinet, violoncello and percussion (May 2023) –
+          To be premiered by <em>Norrbotten NEO</em> on July 9th 2023 at
+          Musiikin aika (Time of Music Festival) in Viitasaari, Finland (score
+          in development)
         </ListItem>
         <ListItem>
           <em>
@@ -22,8 +23,16 @@ const Works = () => {
             the displacement, the graze of time, anymore)
           </em>
           , for blinking lights, tape, two CD players, and offstage viola and
-          piano (February 2023) – To be premiered during VANG VI Festival in
-          June 2023 in Madrid (score in development)
+          piano (February 2023) – Premiered as part of VANG VI Festival of
+          CentroCentro by Vertixe Sonora Ensemble on June 15th 2023 in Madrid{' '}
+          <a
+            href='https://archive.org/details/ya-no-siento-el-deslizamiento'
+            target='_blank'
+            rel='noreferrer'
+            className='text-blue-500'
+          >
+            [PDF, audio tracks]
+          </a>
         </ListItem>
         <ListItem>
           <em>Fusilli con lentejas (Fusilli with lentils)</em>, acousmatic work

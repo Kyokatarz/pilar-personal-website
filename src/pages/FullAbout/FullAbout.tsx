@@ -30,20 +30,26 @@ const FullAbout = () => {
               >
                 GitHub
               </a>{' '}
-              for SuperCollider theory and solutions to specific tasks.
+              for some SuperCollider tutorials and other specific codes I am
+              developing.
             </Paragraph>
           </div>
         </div>
         <div className='lg:w-5/12'>
           <Paragraph>
             Hi! My name is Pilar Miralles and I was born in Almería (Spain) in
-            1997. I am a composer, sound artist and writer based in Espoo
-            (Finland). I speak Spanish, English and a bit of French. You can
-            find my artist statement and short bio in the home page.
+            1997. I am a composer and sound artist based in Helsinki (Finland).
+            I speak Spanish, English and a bit of French. You can find my artist
+            statement and short bio in the home page.
           </Paragraph>
           <br />
           <SubSectionHeader level={2}>Education</SubSectionHeader>
           <ul className='text-justify'>
+            <ListItem>
+              Preparatory doctoral student at the DocMus Doctoral School of the
+              Sibelius Academy, University of the Arts Helsinki (Finland,
+              ongoing)
+            </ListItem>
             <ListItem>
               Master of Music in Composition at the Sibelius Academy, University
               of the Arts Helsinki (Finland, 2022)
@@ -64,8 +70,9 @@ const FullAbout = () => {
               </ListItem>
             </ul>
             <ListItem>
-              Master’s Degree in Electroacoustic Composition, Higher Center of
-              Musical Education “Katarina Gurska” of Madrid (Spain, 2020)
+              Master’s Degree in Electroacoustic Composition at the Higher
+              Center of Musical Education “Katarina Gurska” of Madrid (Spain,
+              2020)
             </ListItem>
             <ListItem>
               Bachelor’s Degree in Composition at the Royal Higher Conservatory
@@ -74,81 +81,61 @@ const FullAbout = () => {
           </ul>
           <br />
           <SubSectionHeader level={2}>
-            Some of the things I’ve done
+            Current research project
           </SubSectionHeader>
-          <Paragraph>
-            <ul>
-              <ListItem>
-                Merit grant awarded by the Martis Wegelius Foundation (Finland
-                2022).
-              </ListItem>
-
-              <ListItem>
-                Participation as a composer at the Nordplus intensive course
-                IMMEDIA in Vilnius (Lithuania, 2021).
-              </ListItem>
-              <ListItem>
-                Participation as an artist in Tampere Biennale 2022, setting the
-                public sound and visual installation “Where Are the Workers
-                Now?” during the festival.
-              </ListItem>
-              <ListItem>
-                Collaboration with composer and researcher José López-Montes
-                into GenoMus project (computer-aided creativity tool) composing
-                a computer-generated binaural piece in podcast format, published
-                as part of FACBA, Festival of Contemporary Arts of Granada’s
-                University (Spain, 2021).
-              </ListItem>
-              <ListItem>
-                Collaboration with Glauka Quintet and painter Lucía Rojas as a
-                composer with the creation of Grito al cielo (Scream to the
-                Sky), for wind quintet (2021), within the project Spain Arts,
-                Science and Culture in Belgium 2021 – Ventanilla abierta.
-              </ListItem>
-              <ListItem>
-                Pieces commissioned by Avanti! Chamber Orchestra (Finland,
-                2022), Orchester im Treppenhaus (Germany, 2022) or Zodiac Trio
-                (US, 2021), among others.
-              </ListItem>
-            </ul>
-          </Paragraph>
+          <ul className='text-justify'>
+            <Paragraph>
+              My current artistic research project is called: "A Space in Time;
+              Compositional Solutions for the Creation of Sonic Spaces as a
+              Social Instrument". My main research question is the sonic space
+              as a hypothetical resource to bring about a series of favorable
+              conditions for the listener to question their perception. The
+              sonic space is described as a space in time, or a time where one
+              can stay. Through the analysis of referential pieces and my own
+              experimentation through the artistic component of my project, I
+              intend to develop a series of compositional solutions for the
+              creation of this space in time, preliminary related to the
+              concepts of moment, vertical time, non-teleology and
+              micro-variation.
+            </Paragraph>
+          </ul>
           <br />
           <SubSectionHeader level={2}>
-            Some of the composition competitions I’ve been to
+            Some more biographical stuff
           </SubSectionHeader>
           <Paragraph>
             <ul>
-              <ListItem>
-                Akademiska Sångföreningen Choral Composition Competition, Third
-                Prize (Helsinki, 2022)
-              </ListItem>
-              <ListItem>
-                Élan Prix by IRCAM and Orchestre national d’Île-de-France,
-                Orchestra and Audience Awards (Paris, 2022)
-              </ListItem>
-              <ListItem>
-                Composer Slam Europe by Orchester im Treppenhaus, Finalist
-                (Hannover, 2022)
-              </ListItem>
-              <ListItem>
-                {' '}
-                Île de créations Composition Competition, Orchestra Award
-                (Paris, 2021)
-              </ListItem>
-              <ListItem>
-                Linköpings Studentsångare Composition Award, First Prize
-                (Sweden, 2020)
-              </ListItem>
-              <ListItem>
-                II Zodiac International Music Competition, First Prize,
-                composition category (France-US, 2020)
-              </ListItem>
-              <ListItem>
-                {' '}
-                International Antonín Dvorák Composition Competition, Second
-                Prize, Junior category (Prague, 2019)
-              </ListItem>
+              I have attended composition masterclasses with Liza Lim, Augusta
+              Read Thomas, Kalevi Aho and Guillaume Connesson, among others, and
+              I received a merit grant from the Martin Wegelius Foundation in
+              2022. My instrumental work has been internationally premiered by
+              ensembles and orchestras, such as the Île-de-France National
+              Orchestra, the Helsinki Symphony Orchestra, the Orchester im
+              Treppenhaus, Defunensemble, Vertixe Sonora, K!ART Ensemble or
+              Zagros Ensemble. On the other hand, her electroacoustic work has
+              been developed at the Nordplus intensive course IMMEDIA 2021 in
+              Vilnius (Lithuania), the MuteFest ’20 and ’22 (Festival of Musical
+              Creation with Technology) at the Sibelius Academy (Finland), or
+              the FACBA Festival of Contemporary Art of Granada’s University
+              2021 (Spain), the latter one in collaboration with composer and
+              researcher José López-Montes, with whom I co-composed a
+              computer-generated piece in podcast format by using his
+              computer-aided creativity tool GenoMus. I have participated in
+              other important new music festivals in Europe such as Musiikin
+              aika (Time of Music) 2023 in Viitasaari (Finland), the Academy of
+              ManiFeste 2022 at the IRCAM in Paris (France), or the VANG series
+              of CentroCentro in Madrid (Spain). I have also collaborated as a
+              co-teacher of the SuperCollider programming course organized by
+              the Music Technology department of the Sibelius Academy in May
+              2023. During 2023, I have been invited by the Ulysses Network to
+              join the Ulysses Journeys for young composers with stops at the
+              Musiikin aika Festival in Viitasaari (Finland) and the akademie
+              kontemporär in Hamburg (Germany). I am also currently working on a
+              text-based work (the so-called book), and sometimes I dust off my
+              flute and my collage notebook.
             </ul>
+          </Paragraph>
+          <Paragraph>
             <div className='mt-10 mb-10 w-full text-left border-black border-4 p-4 lg:hidden'>
               <Paragraph>
                 I use SuperCollider programming language for composing my
@@ -161,7 +148,8 @@ const FullAbout = () => {
                 >
                   GitHub
                 </a>{' '}
-                for SuperCollider theory and solutions to specific tasks.
+                for some SuperCollider tutorials and other specific codes I am
+                developing.
               </Paragraph>
             </div>
             <SeeMore to='/media'>See more media {'>>'}</SeeMore>
