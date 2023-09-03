@@ -14,10 +14,10 @@ const About = () => {
           am a composer and sound artist based in Helsinki (Finland). I
           completed my Master's Degree in Electroacoustic Composition in 2020 in
           Madrid (Spain) and my Master of Music in Composition in 2022 at the
-          Sibelius Academy of the University of the Arts Helsinki (Finland). I
-          have recently been accepted as a preparatory doctoral student at the
-          DocMus Doctoral School of the Sibelius Academy. My artistic research
-          project is focused on the creation of sonic spaces where
+          Sibelius Academy of the University of the Arts Helsinki (Finland).
+          Currently, I continue my studies at the Sibelius Academy as a
+          preparatory doctoral student at DocMus Doctoral School. My artistic
+          research project is focused on the creation of sonic spaces where
           normally-automatized perception could be questioned.
         </Paragraph>
         <SeeMore to='/about-me'>See more about me {'>>'}</SeeMore>

@@ -9,6 +9,11 @@ import soundCloud from '../../constants/soundCloud'
 const youtubeMedia = [
   {
     title:
+      '"I don\'t expect anything from this afternoon", for violin, bass clarinet, violoncello and percussio (2023) – Norrbotten NEO',
+    url: 'https://www.youtube.com/watch?v=mq7E79WxZYg',
+  },
+  {
+    title:
       '"How Difficult It Is to Cry Today", for piano, cello and tape (2022) – Defunensemble',
     url: 'https://youtu.be/Fxkw14wEIvw?t=1874',
   },
@@ -51,20 +56,6 @@ const youtubeMedia = [
     title:
       'Piano Concerto, "Allegory of the Five Industrial Forces" (2022) – Orchestre national d’Île-de-France, with Marie-Ange Nguci',
     url: 'https://www.youtube.com/watch?v=quXTd4CR1sw',
-  },
-  {
-    title: '"Abstraction II", bassoon and piano (2020) ',
-    url: 'https://www.youtube.com/watch?v=HeeLMgzz1YQ',
-  },
-  {
-    title:
-      '"Ota yksi, maksa kaksi" ("Get One for the Price of Two"), for prepared vibraphone and two CD players (2022) - QDuo (Alejandro Sancho Pérez and José Antonio Caballero Rodríguez)',
-    url: 'https://www.youtube.com/watch?v=Wp0UG4VSiGc',
-  },
-  {
-    title:
-      '"Plastic Hugs. Emptiness", for bassoon, percussion and tape (2020) - Honk and Bonk! (Cassandra Roache and Bryan Wysocki)',
-    url: 'https://www.youtube.com/watch?v=EQgjAt7dFG4',
   },
   {
     title:
@@ -129,14 +120,15 @@ const Media = () => {
         <p className='underline'>Upcoming premiers</p>
         <ul className='mt-8'>
           <ListItem>
-            "I don't expect anything from this afternoon", for violin, bass
-            clarinet, violoncello and percussion (2023) - To be premiered by
-            Norrbotten NEO at Musiikin aika (Time of Music Festival) on July 9,
-            2023 (Viitasaari's Parish Hall, Finland)
+            "As we march, fear flees", video installation by Homa Shokri (2023)
+            - To be open to visitors at Helsinki University metro station
+            (September 12, 2023) and the Theater Academy during Uniarts Fest
+            (September 22, 2023){' '}
           </ListItem>
           <ListItem>
-            New piece for ensemble (to be confirmed) - To be premiered at the
-            biennial akademie kontemporär, in September 2023 (Hamburg, Germany)
+            "Music to watch the clouds pass by on a windless day", for seven
+            players (2023) - To be premiered at the biennial akademie
+            kontemporär, September 30, 2023 (Hamburg, Germany)
           </ListItem>
           <ListItem>
             "Brief Requiem for the Poets and Prayers", for chamber orchestra
