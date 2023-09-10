@@ -46,7 +46,7 @@ const FullAbout = () => {
           <SubSectionHeader level={2}>Education</SubSectionHeader>
           <ul className='text-justify'>
             <ListItem>
-              Preparatory doctoral student at the DocMus Doctoral School of the
+              Preparatory doctoral student at DocMus Doctoral School of the
               Sibelius Academy, University of the Arts Helsinki (Finland,
               ongoing)
             </ListItem>
@@ -87,16 +87,21 @@ const FullAbout = () => {
             <Paragraph>
               My current artistic research project is called: "A Space in Time;
               Compositional Solutions for the Creation of Sonic Spaces as a
-              Social Instrument". My main research question is the sonic space
-              as a hypothetical resource to bring about a series of favorable
-              conditions for the listener to question their perception. The
-              sonic space is described as a space in time, or a time where one
-              can stay. Through the analysis of referential pieces and my own
-              experimentation through the artistic component of my project, I
-              intend to develop a series of compositional solutions for the
-              creation of this space in time, preliminary related to the
-              concepts of moment, vertical time, non-teleology and
-              micro-variation.
+              Social Instrument". It explores the concept of sonic space to
+              bring about a series of favorable conditions for questioning
+              perception. Becoming aware of my own limitations for the
+              perception of the world and the self, I investigate compositional
+              solutions for the creation of a sonic space, a space in time
+              opened to contemplation and reflection beyond daily expectations
+              of production, consumption and optimization. My preliminary niches
+              of experimentation involve the concepts of vertical time and
+              non-teleological music which, at a deeper level, are approached
+              through the multi-semantic notion of silence. The theoretical
+              study and analysis in referential pieces of these notions will
+              lead to two main outputs in this project: the description of an
+              adaptive and durable set of compositional solutions and their
+              artistic implementation in a hybrid format between a concert and a
+              sound installation.
             </Paragraph>
           </ul>
           <br />

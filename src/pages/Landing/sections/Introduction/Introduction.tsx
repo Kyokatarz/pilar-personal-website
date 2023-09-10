@@ -37,25 +37,25 @@ const Introduction = () => {
           technocracy and administrative deception.
           <br />
           <br />
-          My work as an artist is related to human dignity. I intend to create a
-          series of favorable conditions where the receiver could question their
-          perception, sometimes constrained, automatized by the hurry, the
-          immediacy of production, consumption, optimization. At the same time,
-          I train myself as well{' '}
+          My work as an artist is focused on sound and experience. I intend to
+          create a series of favorable conditions where the receiver could
+          question their perception, sometimes constrained, automatized by the
+          hurry, the immediacy of production, consumption, optimization. At the
+          same time, I train myself as well{' '}
           <em>
             to look better in order to see, to listen better in order to hear
           </em>{' '}
           (Éliane Radigue, "The Mysterious Power of the Infinitesimal"): the
           biggest step of my journey as an artist was to become conscious that I
-          was not conscious.
+          am not conscious.
           <br />
           <br />
           I intend to understand and exist in the present through artistic
           creation, focusing on finding a solid ground, presence and intention
-          for my creative necessities. Some of my current keywords are
-          unintelligibility, vertical time, non-teleology, smallness, silence. I
-          believe I can find a space of observation and self-reflection through
-          them both for me and others.
+          for my creative necessities. Some of my current keywords are vertical
+          time, non-teleology, liminality, silence. I believe I can find a space
+          of observation and self-reflection through them both for me and
+          others.
           <br />
           <br />
           <em>
@@ -75,12 +75,12 @@ const Introduction = () => {
         <Paragraph>
           Thanks to Jean-Paul Sartre for <span className='italic'>Nausea</span>,
           John Kennedy Toole for{' '}
-          <span className='italic'>A Confederacy of Dunces</span>, and John
-          Steinbeck for <span className='italic'>The Grapes of Wrath</span>.
+          <span className='italic'>A Confederacy of Dunces</span>, and Aldous
+          Huxley for <span className='italic'>After many a summer</span>.
           <br />
           <br />
           Thanks to Galina Ustvolskaya, the truest composer, and to Éliane
-          Radigue and Eva-Maria Huoben for defying the immediacy era.
+          Radigue and Eva-Maria Houben for defying the immediacy era.
           <br />
           <br />
           Thanks to Dada. Thanks to Fluxus.

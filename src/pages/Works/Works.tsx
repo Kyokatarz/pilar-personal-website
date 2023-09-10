@@ -8,14 +8,26 @@ const Works = () => {
       <h1 className='text-4xl font-bold text-center mb-6'>Works</h1>
       <ul className='text-justify'>
         <ListItem>
+          <em>Music to watch the clouds pass by on a windless day</em>, for
+          seven players (July 2023) – To be premiered at the biennial akademie
+          kontemporär, September 30, 2023 (Hamburg, Germany)
+        </ListItem>
+        <ListItem>
           <em>
             I don't expect anything from this afternoon; I will let time soften,
             stretch, open its seams and let the threads peek out from behind
           </em>
           , for violin, bass clarinet, violoncello and percussion (May 2023) –
-          To be premiered by <em>Norrbotten NEO</em> on July 9th 2023 at
-          Musiikin aika (Time of Music Festival) in Viitasaari, Finland (score
-          in development)
+          Premiered by <em>Norrbotten NEO</em> on July 9th 2023 at Musiikin aika
+          (Time of Music Festival) in Viitasaari, Finland{' '}
+          <a
+            href='https://archive.org/details/i-dont-expect-anything-from-this-afternoon'
+            target='_blank'
+            rel='noreferrer'
+            className='text-blue-500'
+          >
+            [PDF]
+          </a>
         </ListItem>
         <ListItem>
           <em>
@@ -43,9 +55,6 @@ const Works = () => {
           orchestra (December 2022) – To be premiered by <em>Avanti!</em>{' '}
           Chamber Orchestra during the Autumn 2023 in Finland (score in
           development)
-        </ListItem>
-        <ListItem>
-          <em>Oratio Universalis</em>, acousmatic work (November 2022)
         </ListItem>
         <ListItem>
           <em>
@@ -266,10 +275,8 @@ const Works = () => {
           (July-September 2020)
         </ListItem>
         <ListItem>
-          <em>
-            Reality is UGLY. How About Moving Your ASS and DOING Something?
-          </em>
-          , computer-generated sound (August 2020)
+          <em>Nun komm, der Heiden Heiland</em>, computer-generated sound
+          (August 2020)
         </ListItem>
         <ListItem>
           <em>El casetero</em>, traditional <em>pasodoble</em> for wind band
