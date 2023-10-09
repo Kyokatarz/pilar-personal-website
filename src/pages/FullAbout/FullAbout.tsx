@@ -39,8 +39,9 @@ const FullAbout = () => {
           <Paragraph>
             Hi! My name is Pilar Miralles and I was born in Almería (Spain) in
             1997. I am a composer and sound artist based in Helsinki (Finland).
-            I speak Spanish, English and a bit of French. You can find my artist
-            statement and short bio in the home page.
+            I speak Spanish, English, a bit of French, and a tiny tad of
+            Finnish. You can find my artist statement and short bio in the home
+            page.
           </Paragraph>
           <br />
           <SubSectionHeader level={2}>Education</SubSectionHeader>
@@ -85,23 +86,29 @@ const FullAbout = () => {
           </SubSectionHeader>
           <ul className='text-justify'>
             <Paragraph>
-              My current artistic research project is called: "A Space in Time;
-              Compositional Solutions for the Creation of Sonic Spaces as a
-              Social Instrument". It explores the concept of sonic space to
-              bring about a series of favorable conditions for questioning
-              perception. Becoming aware of my own limitations for the
-              perception of the world and the self, I investigate compositional
-              solutions for the creation of a sonic space, a space in time
-              opened to contemplation and reflection beyond daily expectations
-              of production, consumption and optimization. My preliminary niches
-              of experimentation involve the concepts of vertical time and
-              non-teleological music which, at a deeper level, are approached
-              through the multi-semantic notion of silence. The theoretical
-              study and analysis in referential pieces of these notions will
-              lead to two main outputs in this project: the description of an
-              adaptive and durable set of compositional solutions and their
-              artistic implementation in a hybrid format between a concert and a
-              sound installation.
+              My current artistic research project is called{' '}
+              <em>
+                Lingering over Sound; Compositional Solutions for Quietening
+                Time
+              </em>
+              . In this project I explore compositional solutions to approach
+              timelessness in music through the concept of quietness. I intend
+              to explore the ways in which music can be <em>quiet</em> beyond
+              its amplitude domain. This understanding of quietness as
+              contingency allows me to hypothesize the relationship between
+              timelessness and quietness: quiet music is contingent, that is to
+              say, it is music that <em>is</em> or <em>is not</em>. Because
+              music essentially exists in time, by exploring the contingency of
+              music, I can explore the contingency of the time of music. I
+              believe timelessness can be found in this liminality. I have
+              preliminary called this compositional practice{' '}
+              <em>time quietening</em>. From the theoretical research, the
+              analytical study, mainly focused on the notational tactics and
+              aesthetical approach of Jakob Ullmann, and the creation of three
+              concert-length pieces as platform for experimentation and artistic
+              demonstration, an adaptive and durable set of compositional
+              solutions for <em>time quietening</em> will be described as final
+              output.
             </Paragraph>
           </ul>
           <br />
@@ -110,33 +117,30 @@ const FullAbout = () => {
           </SubSectionHeader>
           <Paragraph>
             <ul>
-              I have attended composition masterclasses with Liza Lim, Augusta
-              Read Thomas, Kalevi Aho and Guillaume Connesson, among others, and
-              I received a merit grant from the Martin Wegelius Foundation in
-              2022. My instrumental work has been internationally premiered by
-              ensembles and orchestras, such as the Île-de-France National
-              Orchestra, the Helsinki Symphony Orchestra, the Orchester im
-              Treppenhaus, Defunensemble, Vertixe Sonora, K!ART Ensemble or
-              Zagros Ensemble. On the other hand, her electroacoustic work has
-              been developed at the Nordplus intensive course IMMEDIA 2021 in
-              Vilnius (Lithuania), the MuteFest ’20 and ’22 (Festival of Musical
-              Creation with Technology) at the Sibelius Academy (Finland), or
-              the FACBA Festival of Contemporary Art of Granada’s University
-              2021 (Spain), the latter one in collaboration with composer and
-              researcher José López-Montes, with whom I co-composed a
-              computer-generated piece in podcast format by using his
-              computer-aided creativity tool GenoMus. I have participated in
-              other important new music festivals in Europe such as Musiikin
-              aika (Time of Music) 2023 in Viitasaari (Finland), the Academy of
-              ManiFeste 2022 at the IRCAM in Paris (France), or the VANG series
-              of CentroCentro in Madrid (Spain). I have also collaborated as a
-              co-teacher of the SuperCollider programming course organized by
-              the Music Technology department of the Sibelius Academy in May
-              2023. During 2023, I have been invited by the Ulysses Network to
-              join the Ulysses Journeys for young composers with stops at the
-              Musiikin aika Festival in Viitasaari (Finland) and the akademie
-              kontemporär in Hamburg (Germany). I am also currently working on a
-              text-based work (the so-called book), and sometimes I dust off my
+              I have attended composition masterclasses with Liza Lim, Kalevi
+              Aho and Guillaume Connesson, among others, and I received a merit
+              grant from the Martin Wegelius Foundation in 2022. My instrumental
+              work has been internationally premiered by ensembles and
+              orchestras, such as the Île-de-France National Orchestra, the
+              Helsinki Symphony Orchestra, the Orchester im Treppenhaus,
+              Defunensemble, Vertixe Sonora, Ensemble Ascolta or Norrbotten NEO.
+              On the other hand, my electroacoustic work has been developed at
+              the Nordplus intensive course IMMEDIA 2021 in Vilnius (Lithuania),
+              the MuteFest ’20 and ’22 at the Sibelius Academy (Finland), or the
+              Festival of Contemporary Art of Granada’s University 2021 in
+              collaboration with composer and researcher José López-Montes
+              (Spain). I have participated in other important new music
+              festivals in Europe such as Musiikin aika (Time of Music) 2023 in
+              Viitasaari (Finland), the Academy of ManiFeste 2022 at the IRCAM
+              in Paris (France), or the VANG series of CentroCentro in Madrid
+              (Spain). I have also collaborated as a co-teacher of the
+              SuperCollider programming course organized by the Music Technology
+              department of the Sibelius Academy in May 2023. During 2023, I
+              have been invited by the Ulysses Network to join the Ulysses
+              Journeys for young composers with stops at the Musiikin aika
+              Festival in Viitasaari (Finland) and the akademie kontemporär in
+              Hamburg (Germany). I am also currently working on a text-based
+              work (the so-called <em>book</em>), and sometimes I dust off my
               flute and my collage notebook.
             </ul>
           </Paragraph>

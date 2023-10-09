@@ -9,8 +9,17 @@ const Works = () => {
       <ul className='text-justify'>
         <ListItem>
           <em>Music to watch the clouds pass by on a windless day</em>, for
-          seven players (July 2023) – To be premiered at the biennial akademie
-          kontemporär, September 30, 2023 (Hamburg, Germany)
+          seven players (July 2023) – Premiered by Ensemble Ascolta and students
+          of the akademie kontemporär 2023, September 30, 2023 (Hamburg,
+          Germany){' '}
+          <a
+            href='https://archive.org/details/music-to-watch-the-clouds'
+            target='_blank'
+            rel='noreferrer'
+            className='text-blue-500'
+          >
+            [PDF]
+          </a>
         </ListItem>
         <ListItem>
           <em>
