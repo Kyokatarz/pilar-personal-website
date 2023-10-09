@@ -17,8 +17,8 @@ const About = () => {
           Sibelius Academy of the University of the Arts Helsinki (Finland).
           Currently, I continue my studies at the Sibelius Academy as a
           preparatory doctoral student at DocMus Doctoral School. My artistic
-          research project is focused on the creation of sonic spaces where
-          normally-automatized perception could be questioned.
+          research project is focused on exploring the ways in which sound can
+          be quietened in order to approach timelessness.
         </Paragraph>
         <SeeMore to='/about-me'>See more about me {'>>'}</SeeMore>
       </Article>

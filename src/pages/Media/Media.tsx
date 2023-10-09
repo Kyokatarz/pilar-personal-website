@@ -9,6 +9,11 @@ import soundCloud from '../../constants/soundCloud'
 const youtubeMedia = [
   {
     title:
+      '"Music to watch the clouds pass by on a windless day", for seven players (2023) - Ensemble Ascolta and students from the akademie kontemporär 2023',
+    url: 'https://www.youtube.com/watch?v=jzb6Q6rP1cg&t=3190s',
+  },
+  {
+    title:
       '"I don\'t expect anything from this afternoon", for violin, bass clarinet, violoncello and percussio (2023) – Norrbotten NEO',
     url: 'https://www.youtube.com/watch?v=mq7E79WxZYg',
   },
@@ -62,11 +67,6 @@ const youtubeMedia = [
       '"Anti-Philosophy of the Subject; Mankind\'s Origin Is in Its Fellows", for oboe and string trio (2022) - Cuarteto Emispherio',
     url: 'https://www.youtube.com/watch?v=XwoO4x_gT54',
   },
-  {
-    title:
-      '"Nun komm, der Heiden Heiland", acousmatic work (2020) - Live electroacoustic sound diffusion',
-    url: 'https://www.youtube.com/watch?v=jpSFiFXpY-A',
-  },
 ]
 
 const Media = () => {
@@ -74,8 +74,10 @@ const Media = () => {
     <Section maxWidth='max-w-screen-2xl'>
       <h1 className='text-4xl font-bold text-center mb-6'>Media</h1>
       <span className='text-1xl italic text-gray-600'>
-        Many of my works to this day do not represent my current artistic
-        interests. Take a look at my{' '}
+        Many of the works composed before 2023 do not represent my current
+        artistic interests (although I still cherish them).
+        <br />
+        Take a look at my{' '}
         <a className='text-blue-500' href='/#statement'>
           artist statement
         </a>{' '}
@@ -120,15 +122,13 @@ const Media = () => {
         <p className='underline'>Upcoming premiers</p>
         <ul className='mt-8'>
           <ListItem>
-            "As we march, fear flees", video installation by Homa Shokri (2023)
-            - To be open to visitors at Helsinki University metro station
-            (September 12, 2023) and the Theater Academy during Uniarts Fest
-            (September 22, 2023){' '}
+            "Music to watch a puddle dry", for flute and tape - still to be
+            confirmed
           </ListItem>
           <ListItem>
-            "Music to watch the clouds pass by on a windless day", for seven
-            players (2023) - To be premiered at the biennial akademie
-            kontemporär, September 30, 2023 (Hamburg, Germany)
+            "Hunger and Fear Bred Anger", for piano, cello and percussion (2021)
+            – To be performed by NYKY Ensemble at Camerata hall, Helsinki Music
+            Center, October 27, 2023 (Helsinki, Finland)
           </ListItem>
           <ListItem>
             "Brief Requiem for the Poets and Prayers", for chamber orchestra

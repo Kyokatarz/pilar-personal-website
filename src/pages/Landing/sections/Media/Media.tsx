@@ -28,8 +28,10 @@ const Media = () => {
 
         <div className='w-full'>
           <YoutubeCaptionPair
-            url='https://youtu.be/Fxkw14wEIvw?t=1874'
-            caption='"How Difficult It Is to Cry Today", for piano, cello and tape (2022) – Defunensemble'
+            url='https://www.youtube.com/watch?v=mq7E79WxZYg'
+            caption={
+              '"I don\'t expect anything from this afternoon", for violin, bass clarinet, violoncello and percussio (2023) – Norrbotten NEO'
+            }
           />
         </div>
 
