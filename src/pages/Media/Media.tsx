@@ -38,8 +38,8 @@ const youtubeMedia = [
   },
   {
     title:
-      '"Hunger and Fear Bred Anger", for piano, cello and percussion (2021) – K!ART Ensemble',
-    url: 'https://www.youtube.com/watch?v=Qh9zH1NIWQM',
+      '"Hunger and Fear Bred Anger", for piano, cello and percussion (2021) – Members of NYKY Ensemble',
+    url: 'https://www.youtube.com/live/Q12Duopu4mk?feature=shared&t=3337',
   },
 
   {
@@ -122,13 +122,12 @@ const Media = () => {
         <p className='underline'>Upcoming premiers</p>
         <ul className='mt-8'>
           <ListItem>
-            "Music to watch a puddle dry", for flute and tape - still to be
+            Piece for harp for Maaria Pulakka's master's concert, to be
             confirmed
           </ListItem>
           <ListItem>
-            "Hunger and Fear Bred Anger", for piano, cello and percussion (2021)
-            – To be performed by NYKY Ensemble at Camerata hall, Helsinki Music
-            Center, October 27, 2023 (Helsinki, Finland)
+            "Music to watch a puddle dry", for flute and tape - To be premiered
+            by Francisco Rojas in Gent, Belgium, in June 2024
           </ListItem>
           <ListItem>
             "Brief Requiem for the Poets and Prayers", for chamber orchestra
