@@ -39,7 +39,7 @@ const youtubeMedia = [
   {
     title:
       '"Hunger and Fear Bred Anger", for piano, cello and percussion (2021) – Members of NYKY Ensemble',
-    url: 'https://www.youtube.com/live/Q12Duopu4mk?feature=shared&t=3337',
+    url: 'https://www.youtube.com/watch?v=Q12Duopu4mk&t=3337s',
   },
 
   {
