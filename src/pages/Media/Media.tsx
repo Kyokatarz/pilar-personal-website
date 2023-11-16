@@ -84,7 +84,7 @@ const Media = () => {
         to get an idea of what I could be up to for upcoming creations.
       </span>
       <br />
-      <div className='w-full flex flex-col md:flex-row md:flex-wrap'>
+      <div className='w-full flex flex-col md:flex-row md:flex-wrap md:justify-center'>
         {youtubeMedia.map((item, index) => (
           <div className='w-full max-w-full mb-8 md:w-[calc(50%-theme(space.4))] xl:w-[calc(33%-theme(space.12))] xl:mx-2'>
             <YoutubeCaptionPair url={item.url} caption={item.title} />
@@ -92,7 +92,7 @@ const Media = () => {
         ))}
       </div>
 
-      <div className='w-full flex flex-col md:flex-row md:flex-wrap'>
+      <div className='w-full flex flex-col md:flex-row md:flex-wrap md:justify-center'>
         {soundCloud.map((item) => (
           <div className='w-full max-w-full mb-8 md:w-[calc(50%-theme(space.4))] xl:w-[calc(33%-theme(space.12))] xl:mx-2'>
             <SoundCloudIframe url={item.url} caption={item.caption} />
