@@ -6,7 +6,7 @@ import Section from '../../components/Section'
 import SeeMore from '../../components/SeeMore'
 import SubSectionHeader from '../../components/SubSectionHeader'
 
-import PilarWorking from './assets/pilar-working.jpg'
+import PilarWorking from './assets/foto-vertical.jpg'
 
 const FullAbout = () => {
   return (
@@ -15,9 +15,6 @@ const FullAbout = () => {
       <div className='justify-center items-center w-full flex flex-col lg:items-start lg:flex-row lg:flex-wrap lg:justify-center'>
         <div className='max-w-lg lg:mr-10 mb-8 lg:w-4/12'>
           <img src={PilarWorking} alt='Pilar working' />
-          <figcaption className='w-full text-right text-xs italic'>
-            © Jonas Šopa
-          </figcaption>
           <div className='mt-24 w-full text-left border-black border-4 p-4 hidden lg:block'>
             <Paragraph>
               I use SuperCollider programming language for composing my
@@ -91,24 +88,19 @@ const FullAbout = () => {
                 Lingering over Sound; Compositional Solutions for Quietening
                 Time
               </em>
-              . In this project I explore compositional solutions to approach
-              timelessness in music through the concept of quietness. I intend
-              to explore the ways in which music can be <em>quiet</em> beyond
-              its amplitude domain. This understanding of quietness as
-              contingency allows me to hypothesize the relationship between
-              timelessness and quietness: quiet music is contingent, that is to
-              say, it is music that <em>is</em> or <em>is not</em>. Because
-              music essentially exists in time, by exploring the contingency of
-              music, I can explore the contingency of the time of music. I
-              believe timelessness can be found in this liminality. I have
-              preliminary called this compositional practice{' '}
-              <em>time quietening</em>. From the theoretical research, the
-              analytical study, mainly focused on the notational tactics and
-              aesthetical approach of Jakob Ullmann, and the creation of three
-              concert-length pieces as platform for experimentation and artistic
-              demonstration, an adaptive and durable set of compositional
-              solutions for <em>time quietening</em> will be described as final
-              output.
+              . In this project, I explore compositional solutions to approach
+              timelessness, that is, the suspension of temporal perception, in
+              music. I present quietness as my specific approach to
+              timelessness. Quietness is understood here as an "underload" of
+              auditory information, that is to say, I intend to create
+              situations in which there is very little auditory input for the
+              temporal organization to be optimally processed. Through the
+              creative process of three concert-length works, I aim to
+              articulate an artistic practice I name “time quietening”. These
+              works are proposed as a response to a culture of acceleration,
+              immediacy and informative overload: the audience is provided with
+              situations of sonic “underload” to linger over reflection and
+              contemplation amid the hectic everyday life.
             </Paragraph>
           </ul>
           <br />
@@ -117,31 +109,31 @@ const FullAbout = () => {
           </SubSectionHeader>
           <Paragraph>
             <ul>
-              I have attended composition masterclasses with Liza Lim, Kalevi
-              Aho and Guillaume Connesson, among others, and I received a merit
-              grant from the Martin Wegelius Foundation in 2022. My instrumental
-              work has been internationally premiered by ensembles and
-              orchestras, such as the Île-de-France National Orchestra, the
-              Helsinki Symphony Orchestra, the Orchester im Treppenhaus,
-              Defunensemble, Vertixe Sonora, Ensemble Ascolta or Norrbotten NEO.
-              On the other hand, my electroacoustic work has been developed at
-              the Nordplus intensive course IMMEDIA 2021 in Vilnius (Lithuania),
-              the MuteFest ’20 and ’22 at the Sibelius Academy (Finland), or the
-              Festival of Contemporary Art of Granada’s University 2021 in
-              collaboration with composer and researcher José López-Montes
-              (Spain). I have participated in other important new music
-              festivals in Europe such as Musiikin aika (Time of Music) 2023 in
-              Viitasaari (Finland), the Academy of ManiFeste 2022 at the IRCAM
-              in Paris (France), or the VANG series of CentroCentro in Madrid
-              (Spain). I have also collaborated as a co-teacher of the
-              SuperCollider programming course organized by the Music Technology
-              department of the Sibelius Academy in May 2023. During 2023, I
-              have been invited by the Ulysses Network to join the Ulysses
-              Journeys for young composers with stops at the Musiikin aika
-              Festival in Viitasaari (Finland) and the akademie kontemporär in
-              Hamburg (Germany). I am also currently working on a text-based
-              work (the so-called <em>book</em>), and sometimes I dust off my
-              flute and my collage notebook.
+              My instrumental work has been internationally premiered by
+              ensembles and orchestras, such as the Île-de-France National
+              Orchestra, Orchester im Treppenhaus, Defunensemble, Vertixe
+              Sonora, Ensemble Ascolta or Norrbotten NEO. On the other hand, my
+              electroacoustic work has been developed at the Nordplus intensive
+              course IMMEDIA 2021 in Vilnius (Lithuania), the MuteFest ’20 and
+              ’22 at the Sibelius Academy (Finland), or the Festival of
+              Contemporary Art of Granada’s University 2021 in collaboration
+              with composer and researcher José López-Montes (Spain). I have
+              participated in other important new music festivals in Europe such
+              as Musiikin aika (Time of Music) 2023 in Viitasaari (Finland), the
+              Academy of ManiFeste 2022 at the IRCAM in Paris (France), or the
+              VI VANG series of CentroCentro in Madrid (Spain). My most recent
+              recognition was the First Prize of the Young Composers Award
+              organized by SGAE-CNDM in Madrid (November 2023), thanks to which
+              I will be the resident composer of the Spanish Musical Youth
+              Network (JME) during the 2024/25 season. I have collaborated as a
+              co-teacher of the SuperCollider programming course organized by
+              the Music Technology department of the Sibelius Academy since
+              2023. During 2023-24, I have also been invited by the Ulysses
+              Network to join the Ulysses Journeys for young composers,
+              attending composition courses at Viitasaari, Hamburg and
+              Barcelona. I am currently working on a text-based work (the
+              so-called <em>book</em>), and sometimes I dust off my flute and my
+              collage notebook.
             </ul>
           </Paragraph>
           <Paragraph>

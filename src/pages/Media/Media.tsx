@@ -84,7 +84,7 @@ const Media = () => {
         to get an idea of what I could be up to for upcoming creations.
       </span>
       <br />
-      <div className='w-full flex flex-col md:flex-row md:flex-wrap'>
+      <div className='w-full flex flex-col md:flex-row md:flex-wrap md:justify-center'>
         {youtubeMedia.map((item, index) => (
           <div className='w-full max-w-full mb-8 md:w-[calc(50%-theme(space.4))] xl:w-[calc(33%-theme(space.12))] xl:mx-2'>
             <YoutubeCaptionPair url={item.url} caption={item.title} />
@@ -92,7 +92,7 @@ const Media = () => {
         ))}
       </div>
 
-      <div className='w-full flex flex-col md:flex-row md:flex-wrap'>
+      <div className='w-full flex flex-col md:flex-row md:flex-wrap md:justify-center'>
         {soundCloud.map((item) => (
           <div className='w-full max-w-full mb-8 md:w-[calc(50%-theme(space.4))] xl:w-[calc(33%-theme(space.12))] xl:mx-2'>
             <SoundCloudIframe url={item.url} caption={item.caption} />
@@ -122,17 +122,24 @@ const Media = () => {
         <p className='underline'>Upcoming premiers</p>
         <ul className='mt-8'>
           <ListItem>
-            Piece for harp for Maaria Pulakka's master's concert, to be
-            confirmed
+            "Dos fughettas", for violin and piano (2019) - To be premiered by
+            Carlos Galán and Emilio Sánchez in Madrid and Andalucía, Spain, in
+            February and March 2024, respectively.
           </ListItem>
           <ListItem>
-            "Music to watch a puddle dry", for flute and tape - To be premiered
-            by Francisco Rojas in Gent, Belgium, in June 2024
+            "Lull", for solo harp and tape (2024) - To be premiered by Maaria
+            Pulakka at her master's concert at the Sibelius Academy in Helsinki,
+            Finland, in the Autumn 2024
           </ListItem>
           <ListItem>
-            "Brief Requiem for the Poets and Prayers", for chamber orchestra
-            (2022) – To be premiered by Avanti! Chamber Orchestra at Sovisoitto
-            (Summer Sounds Festival) in June 2024 (Porvoo, Finland)
+            "Music to watch a puddle dry" (2024), for flute and tape - To be
+            premiered by Francisco Rojas in Gent, Belgium, in June 2024
+          </ListItem>
+          <ListItem>
+            "Brief Requiem for the Poets and Prayers" (2023), for chamber
+            orchestra (2022) – To be premiered by Avanti! Chamber Orchestra at
+            Sovisoitto (Summer Sounds Festival) on the 30th of June 2024
+            (Porvoo, Finland)
           </ListItem>
         </ul>
       </div>

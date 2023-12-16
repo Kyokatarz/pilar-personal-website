@@ -28,7 +28,7 @@ function App() {
         </Routes>
       </main>
       <footer className='mb-5'>
-        Open source website @{' '}
+        Open-source website @{' '}
         <a
           href='https://github.com/Kyokatarz/pilar-personal-website'
           target='_blank'
