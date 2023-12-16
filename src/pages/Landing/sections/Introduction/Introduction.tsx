@@ -4,7 +4,7 @@ import Paragraph from '../../../../components/Paragraph'
 import Section from '../../../../components/Section'
 import SubSectionHeader from '../../../../components/SubSectionHeader'
 
-import TheUgly from '../../assets/la-mujer-oro.jpeg'
+import TheUgly from '../../assets/foto-horizontal.jpeg'
 
 const Introduction = () => {
   return (
