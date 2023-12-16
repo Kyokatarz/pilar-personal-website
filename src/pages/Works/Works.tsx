@@ -8,6 +8,24 @@ const Works = () => {
       <h1 className='text-4xl font-bold text-center mb-6'>Works</h1>
       <ul className='text-justify'>
         <ListItem>
+          <em>
+            Echaron abajo una casita cubierta de hiedra que me gustaba mirar de
+            lejos (They tore down a little house covered in ivy that I liked to
+            look at from afar
+          </em>
+          , for soprano, alto flute, bass clarinet, percussion and piano
+          (September 2023) – Premiered by CrossingLines Ensemble, November 27,
+          2023 (Madrid, Spain){' '}
+          <a
+            href='https://archive.org/details/they-tore-down-a-little-house'
+            target='_blank'
+            rel='noreferrer'
+            className='text-blue-500'
+          >
+            [PDF]
+          </a>
+        </ListItem>
+        <ListItem>
           <em>Music to watch the clouds pass by on a windless day</em>, for
           seven players (July 2023) – Premiered by Ensemble Ascolta and students
           of the akademie kontemporär 2023, September 30, 2023 (Hamburg,
